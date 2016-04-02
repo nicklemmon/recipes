@@ -47,6 +47,19 @@
 		box-sizing: border-box;
 		text-decoration: none;
 		color: #FFFFFF;
+		@include transition(background $transition--lg ease, text-shadow $transition--lg ease);
+		&:hover {
+			background: fade-out($gray--dark, .8);
+			text-shadow: 0 1px 0 fade-out($gray--dark, .2);
+		}
+	}
+
+	.FooterCategoryList-link--category {
+		@include transition(background $transition--lg ease, box-shadow $transition--sm ease);
+		&:hover {
+			box-shadow: 0 2px 5px rgba($gray--dark, .4);
+			text-shadow: none;
+		}
 	}
 
 .FooterCategoryList-listItem {
