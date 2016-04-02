@@ -1,0 +1,25 @@
+# Site settings
+title: Nick and Laurie's Recipe Collection
+email: nick.lemmon@gmail.com
+description: ""
+baseurl: "/recipes" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+twitter_username: nicklemmon
+github_username:  nicklemmon
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Sass settings
+sass:
+  style: compressed
+
+# Collections
+collections:
+  recipes:
+    layout: recipe # sets default layout for files generated from _recipes directory
+    output: true
+
+
+

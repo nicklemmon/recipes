@@ -1,0 +1,47 @@
+#===== CATEGORIES & SUBCATEGORIES =====#
+
+maindish:
+  shortname: maindish
+  fullname: Main Dish
+  subcategories:
+    - beef
+    - poultry
+    - pork
+    - vegetarian
+    - ethnic
+
+favorites:
+  shortname: favorites
+  fullname: Favorites
+
+sidedish:
+  shortname: sidedish
+  fullname: Side Dishes
+  subcategories:
+    - starches
+    - vegetables
+
+appetizers:
+  shortname: appetizer
+  fullname: Appetizers
+  subcategories:
+    - hot
+    - cold
+
+drinks:
+  shortname: drink
+  fullname: Drinks
+  subcategories:
+    - alcoholic
+    - hot
+    - cold
+    - smoothie
+
+desserts:
+  shortname: dessert
+  fullname: Desserts
+  subcategories:
+    - chocolate
+    - cake
+    - pie
+    - cookies

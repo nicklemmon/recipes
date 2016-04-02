@@ -1,0 +1,21 @@
+//====== BASE STYLES ======//
+
+.ContentContainer {
+	background: $gray--light;
+}
+
+.SubContainer {
+	max-width: $containerWidth;
+	margin: 0 auto;
+}
+
+.SubContainer--categoryNav {
+	@include display(flex);
+	@include flex-direction(row);
+	@include flex-wrap(wrap);
+	padding-bottom: $spacing--xl*2;
+	@media screen and (min-width: $breakpoint--sm) {
+		margin-top: -$spacing--xl;
+		padding-bottom: $spacing--lg*2;
+	}
+}

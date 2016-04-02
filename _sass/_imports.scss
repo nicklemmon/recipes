@@ -1,0 +1,25 @@
+//===== LIST OF SCSS IMPORTS =====//
+
+
+//=== Web fonts ===//
+@import url(https://fonts.googleapis.com/css?family=Ovo|Lato:400,300,100);
+
+//=== Vendor ===//
+@import 'vendor/yui-css-reset'; // Yahoo! CSS reset from http://yuilibrary.com/yui/docs/cssreset/
+@import 'vendor/bourbon/bourbon'; // Bourbon mixins from http://bourbon.io by thoughtbot
+
+//=== Base styles ===//
+@import 'vars';
+@import 'base';
+@import 'typography';
+@import 'layout';
+@import 'utilities';
+@import 'states'; // dynamically added classes that are temporary states
+
+//=== Components ===//
+@import 'components/header';
+@import 'components/navigation';
+@import 'components/hero';
+@import 'components/tiles';
+@import 'components/footer';
+

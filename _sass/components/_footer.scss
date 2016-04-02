@@ -1,0 +1,57 @@
+.Footer {
+	background: $gray;
+	padding: $spacing--md*2 $spacing--md;
+	font-size: 1rem;
+	// @include display(flex);
+	// @include justify-content(space-around);
+	// @include align-items(flex-start);
+}
+
+.FooterCategoryList {
+	width: 100%;
+	text-align: center;
+	@media screen and (min-width: $breakpoint--md) {
+		width: 33.2%;
+		display: inline-block;
+		box-sizing: border-box;
+		padding: $spacing--sm;
+	}
+}
+
+.FootCategoryList-title {
+	color: #FFFFFF;
+}
+
+	.FooterCategoryList-title--h3 {
+		font-size: 1.1em;
+		text-transform: uppercase;
+	}
+
+
+	.FooterCategoryList-link--category {
+		height: 3em;
+		width: 100%;
+		border: .1em solid #FFFFFF;
+	}
+
+	.FooterCategoryList-link {
+		@include display(flex);
+		@include align-items(center);
+		@include justify-content(center);
+		box-sizing: border-box;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+
+.FooterCategoryList-listItem {
+	&:first-child {
+		margin-top: $spacing--md;
+	}
+	border-bottom: 1px solid $gray--dark;
+}
+	
+	.FooterCategoryList-link--subcategory {
+		width: 100%;
+		font-size: 1.2em;
+		padding: $spacing--sm*1.5;
+	}

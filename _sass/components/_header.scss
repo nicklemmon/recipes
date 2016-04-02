@@ -1,0 +1,55 @@
+//===== HEADER STYLES =====//
+
+.Header {
+	width: 100%;
+	height: 4.5rem;
+	background: #FFFFFF;
+	font-size: 1.4rem;
+	@include display(flex);
+	@include align-items(center);
+	box-shadow: 0 2px 4px 0 rgba($gray--dark, .54);
+}
+
+.Header-subContainer {
+	@include display(flex);
+	@include justify-content(space-between);
+	@include align-items(center);
+	@include flex-direction(row);
+	width: 100%;
+	padding: 0 $spacing--md;
+}
+
+.Header-menu,
+.Header-siteTitle,
+.Header-search {
+	width: 100% / 3;
+}
+
+.Header-menu {
+	@include display(flex);
+	@include flex-direction(column);
+	@include justify-content(space-between);
+	height: 20px;
+	width: 28px;
+
+}
+
+	//=== Hamburger menu ===//
+
+	.Header-menuBar {
+		display: block;
+		height: 3px;
+		width: 100%;
+		background: $gray;
+	}
+
+.Header-siteTitle {
+	text-transform: lowercase;
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: .05em;
+	color: $primary;
+	text-decoration: none;
+}
+
+

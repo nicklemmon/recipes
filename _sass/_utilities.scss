@@ -1,0 +1,32 @@
+//===== UTILITIES STYLES =====//
+
+.u-hiddenText {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.u-ink {
+	display: block;
+	position: absolute;
+	background: #FFFFFF;
+	border-radius: 100%;
+	@include transform(scale(0));
+}
+
+.u-rippleLink {
+	height:10em;
+	text-decoration:none;
+	position:relative;
+	overflow:hidden;
+	@include transition(all $transition--sm linear);
+	z-index:0;
+}
+
+.u-animate--ripple {
+	@include animation(ripple $transition--sm linear);
+}
+
+	@include keyframes(ripple) {
+		100% {opacity: 0; -webkit-transform: scale(2.5);}
+	}

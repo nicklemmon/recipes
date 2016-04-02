@@ -1,0 +1,11 @@
+---
+layout: default		# parent layout
+---
+
+{% assign recipes = site.recipes | where:'subcategory', page.subcategory %} {%comment%} 'recipes' in the following loop are recipes in which the subcategory of the recipe matches a the subcategory of a subcategory page {%endcomment%}
+
+{% for recipe in recipes %}
+
+	{{ recipe.title }}
+	
+{% endfor %}

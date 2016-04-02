@@ -1,0 +1,20 @@
+---
+layout: default		# parent layout
+---
+
+<section class="Hero Hero--secondary">
+	<h2 class="Hero-title Hero-title--h2">{{ page.category | capitalize }}</h2>
+</section> <!-- /.Hero -->
+
+<section class="SubContainer SubContainer--subCategoryNav">
+
+{% assign recipes = site.recipes | where:'category', page.category %} {%comment%} 'recipes' in the following loop are recipes in which the category of the recipe matches the category of a category page {%endcomment%}
+{% for recipe in recipes %}
+
+		<a href="{{ site.baseurl }}/{{ recipe.category | remove: " "  }}/{{recipe.subcategory }}" class="Tile Tile--subCategory u-rippleLink">
+			<p class="Tile-name Tile-name--subCategory">{{ recipe.subcategory }}</p>
+		</a> <!-- .Tile--subCategory -->
+		
+{% endfor %}
+
+</section> <!-- /.SubContainer--subCategoryNav -->

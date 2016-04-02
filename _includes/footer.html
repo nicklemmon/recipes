@@ -1,0 +1,28 @@
+<footer class="Footer">
+	<div class="SubContainer Footer-subContainer">
+
+
+	{% assign categories = site.pages | where:'layout','subcategory-list' %} {%comment%} assign 'categories' to pages with the layout of 'subcategory-list', then loop through those pages printing appropriate information for '.FooterCategoryList' headers and links... {%endcomment%}
+	{% for category in categories %}
+
+	<ul class="FooterCategoryList">
+
+		<h3 class="FooterCategoryList-title FooterCategoryList-title--h3"><a class="FooterCategoryList-link FooterCategoryList-link--category" href="{{ category.url }}">{{ category.link-title }}</a></h3>
+
+		{% assign subcategories = site.pages | where:'category',category.category %} {%comment%} Then assign 'subcategories' to pages in which the category matches the current category from the parent loop, and print appropriate information for links to the appropriate subcategories {%endcomment%}
+		{% for subcategory in subcategories %}
+
+		<li class="FooterCategoryList-listItem">
+			<a class="FooterCategoryList-link FooterCategoryList-link--subcategory" href="{{ subcategory.url }}">{{ subcategory.subcategory | capitalize }}</a>
+		</li>
+
+		{% endfor %}
+	
+	</ul> <!-- /.FooterCategoryList -->
+
+	{% endfor %}
+	
+
+	</div>
+</footer> <!-- /.Footer -->
+

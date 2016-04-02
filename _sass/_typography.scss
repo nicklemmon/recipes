@@ -1,0 +1,14 @@
+//===== TYPOGRAPHY =====//
+
+
+//=== Fonts ===//
+$fontStack--primary:	'Lato', sans-serif;
+$fontStack--secondary:	'Ovo', serif;
+
+:root {
+	font-size: 62.5%;
+}
+
+* {
+	font-family: $fontStack--primary;
+}

@@ -1,0 +1,59 @@
+.Tile {
+	display: block;
+	background: #FFFFFF;
+	text-decoration: none;
+	box-sizing: border-box;
+	border-bottom: .1em solid $gray--light;
+	box-shadow: 0 .4em 0 rgba(#FCFCFC, .5);
+	@include transition(background, $transition--sm);
+	&:hover {
+		background: $gray--lighter;
+	}
+}
+
+.Tile-icon {
+	display: none;
+	@media screen and (min-width: $breakpoint--md) {
+		display: block;
+	}
+}
+
+.Tile-name {
+	font-size: 1.2rem;
+	font-weight: 300;
+	color: $gray--dark;
+}
+
+//===== TILE SUBTYPES =====//
+
+
+//=== category tile ===//
+.Tile--category {
+	height: 17.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .1em;
+	width: 50%;
+	@include display(flex);
+	@include justify-content(center);
+	@include align-items(center);
+	&:nth-child(odd) {
+		border-right: .1em solid $gray--light;
+	}
+}
+
+.Tile-name--category {
+	&:after {
+		content: "";
+		display: block;
+		margin: 0 auto;
+		margin-top: $spacing--md;
+		width: 3.25em;
+		height: .1rem;
+		background: $primary--dark;
+	}
+}
+
+//=== sub-category tile ===//
+
+//=== recipe tile ===//
