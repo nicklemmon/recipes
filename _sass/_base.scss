@@ -26,3 +26,13 @@
 		padding-bottom: $spacing--xl;
 	}
 }
+
+.SubContainer--recipeNav {
+	@include display(flex);
+	@include flex-direction(row);
+	@include flex-wrap(wrap);
+	@media screen and (min-width: $breakpoint--sm) {
+		margin-top: -$spacing--md;
+		padding-bottom: $spacing--lg;
+	}
+}

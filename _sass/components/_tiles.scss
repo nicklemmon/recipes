@@ -42,14 +42,6 @@
 	}
 }
 
-.Tile--subCategory {
-	height: 15rem;
-	width: 100%;
-	@media screen and (min-width: $breakpoint--md) {
-		height: 17.5rem;
-	}
-}
-
 .Tile-name--category {
 	&:after {
 		content: "";
@@ -62,6 +54,37 @@
 	}
 }
 
-//=== sub-category tile ===//
+
+//=== subcategory tile ===//
+
+.Tile--subCategory {
+	height: 15rem;
+	width: 100%;
+	@media screen and (min-width: $breakpoint--md) {
+		height: 17.5rem;
+	}
+}
+
 
 //=== recipe tile ===//
+
+.Tile--recipe {
+	padding: $spacing--lg;
+	width: 100%;
+	@include display(flex);
+	@include justify-content(space-between);
+	@include align-items(center);
+	&:nth-child(odd) {
+		border-right: .1em solid $gray--light;
+	}
+	@media screen and (min-width: $breakpoint--md) {
+		width: 50%;
+	}
+}
+
+.Tile-name--recipe {
+	text-transform: capitalize;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
