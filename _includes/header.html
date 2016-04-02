@@ -1,22 +1,27 @@
 <header class="Header">
 	<div class="SubContainer Header-subContainer">
 
-	    <a href="" class="Header-menu">
-	    	{% comment %}<span class="u-hiddenText">Menu</span>{% endcomment %}
+		<div class="Header-column">
+		    <a href="" class="Header-menu">
+		    	{% comment %}<span class="u-hiddenText">Menu</span>{% endcomment %}
+		    	<span class="Header-menuBar"></span>
+		    	<span class="Header-menuBar"></span>
+		    	<span class="Header-menuBar"></span>
+		    </a>
+		</div> <!-- /.Header-column -->
 
-	    	<span class="Header-menuBar"></span>
-	    	<span class="Header-menuBar"></span>
-	    	<span class="Header-menuBar"></span>
-	    </a>
+		<div class="Header-column">
+	    	<a class="SiteTitle Header-siteTitle" href="{{ site.baseurl }}/">our recipes</a>
+    	</div> <!-- /.Header-column -->
 
-	    <a class="SiteTitle Header-siteTitle" href="{{ site.baseurl }}/">our recipes</a>
+    	<div class="Header-column">
+    		<a class="Search-searchToggle Header-searchToggle"><span class="u-hiddenText">Toggle search</span></a>
 
-    	<a class="Search-searchToggle Header-searchToggle"><span class="u-hiddenText">Toggle search</span></a>
-
-	    <form class="Search Header-search is-hidden">
-	    	<input class="Search-inputText Header-inputText" type="text" placedholder="Search" ></input>
-			<input class="Search-inputSubmit Header-inputSubmit" type="submit" value="Search"></input>
-	    </form>
+		    <form class="Search Header-search is-hidden">
+		    	<input class="Search-inputText Header-inputText" type="text" placedholder="Search" ></input>
+				<input class="Search-inputSubmit Header-inputSubmit" type="submit" value="Search"></input>
+		    </form>
+		</div> <!-- /.Header-column -->
 
 	</div> <!-- /.SubContainer -->
 </header> <!-- /.Header -->

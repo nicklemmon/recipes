@@ -10,15 +10,6 @@
 	@include display(flex);
 	@include align-items(center);
  	box-shadow: 0px 3px 5px rgba(black, .15);
-	&:after {
-		content: '';
-		display: block;
-		position: absolute;
-		z-index: 1;
-		height: .25rem;
-		background: pink;
-		width: 100%;
-	}
 }
 
 .Header-subContainer {
@@ -30,6 +21,17 @@
 	padding: 0 $spacing--md;
 }
 
+.Header-column {
+	width: calc(100% / 3);
+	@include display(flex);
+	@include justify-content(center);
+	&:first-of-type {
+		@include justify-content(flex-start);
+	}
+	&:last-of-type {
+		@include justify-content(flex-end);
+	}
+}
 
 .Header-menu {
 	@include display(flex);
@@ -37,7 +39,6 @@
 	@include justify-content(space-between);
 	height: 20px;
 	width: 28px;
-
 }
 
 	//=== Hamburger menu ===//
@@ -56,6 +57,8 @@
 	letter-spacing: .05em;
 	color: $primary;
 	text-decoration: none;
+	text-align: center;
 }
+
 
 
