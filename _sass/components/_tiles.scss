@@ -26,6 +26,36 @@
 	color: $gray--dark;
 }
 
+//=== Tile Review ===//
+
+.Tile-review {
+	width: 35%;
+	height: 100%;
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+}
+
+	.Tile-review-container {
+		@include display(flex);
+		@include align-items(center);
+		@include justify-content(space-between);
+	}
+
+	.Tile-review-star {
+		@include size(1.75em);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.Tile-review-star--filled {
+		background-image: url('#{$path--images}/icons/star--filled.svg')
+	}
+
+	.Tile-review-star--empty {
+		background-image: url('#{$path--images}/icons/star--empty.svg')
+	}
+
 //===== TILE SUBTYPES =====//
 
 
@@ -87,7 +117,8 @@
 
 .Tile-name--recipe {
 	text-transform: capitalize;
-	font-weight: 300;
+	font-weight: 400;
+	letter-spacing: .1em;
 	font-size: 1.3em;
 }
 

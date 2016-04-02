@@ -10,13 +10,13 @@
 .SubContainer {
 	max-width: $containerWidth;
 	margin: 0 auto;
+	padding-bottom: $spacing--xl*2;
 }
 
 .SubContainer--categoryNav {
 	@include display(flex);
 	@include flex-direction(row);
 	@include flex-wrap(wrap);
-	padding-bottom: $spacing--xl*2;
 	@media screen and (min-width: $breakpoint--sm) {
 		margin-top: -$spacing--xl;
 		padding-bottom: $spacing--lg*2;
