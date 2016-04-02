@@ -42,6 +42,14 @@
 	}
 }
 
+.Tile--subCategory {
+	height: 15rem;
+	width: 100%;
+	@media screen and (min-width: $breakpoint--md) {
+		height: 17.5rem;
+	}
+}
+
 .Tile-name--category {
 	&:after {
 		content: "";

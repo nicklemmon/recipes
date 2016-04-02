@@ -19,3 +19,10 @@
 		padding-bottom: $spacing--lg*2;
 	}
 }
+
+.SubContainer--subCategoryNav {
+	@media screen and (min-width: $breakpoint--sm) {
+		margin-top: -$spacing--lg;
+		padding-bottom: $spacing--xl;
+	}
+}

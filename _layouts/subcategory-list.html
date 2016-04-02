@@ -3,20 +3,20 @@ layout: default		# parent layout
 ---
 
 <section class="Hero Hero--secondary">
-	<h2 class="Hero-title Hero-title--h2">{{ page.category | capitalize }}</h2>
+	<h2 class="Hero-title Hero-title--h2">{{ page.link-title | capitalize }}</h2>
 </section> <!-- /.Hero -->
 
-<section class="SubContainer SubContainer--subCategoryNav">
+<section class="SubContainer SubContainer--categoryNav SubContainer--subCategoryNav">
 
 {% for category_hash in site.data.categories %}
 {% assign category = category_hash[1] %}
-	{% if category.shortname == page.category %}
+	{% if category.shortname == page.category %} {%comment%} While looping through categories in the categories data file, if the category matches the pages category, produce a tile with appropriate data from the appropriate subcategories {%endcomment%}
 
 		{% for subcategories in category.subcategories %}
 
-			<a href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory }}" class="Tile Tile--subCategory u-rippleLink">
-				<p class="Tile-name Tile-name--subCategory">{{ subcategories.subcategory }}</p>
-			</a> <!-- .Tile--subCategory -->
+			<a href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory }}" class="Tile Tile--category Tile--category Tile--subCategory u-rippleLink">
+				<p class="Tile-name Tile-name--category">{{ subcategories.subcategory }}</p>
+			</a> <!-- .Tile--category -->
 
 		{% endfor %}
 

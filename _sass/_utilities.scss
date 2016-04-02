@@ -19,12 +19,12 @@
 	text-decoration:none;
 	position:relative;
 	overflow:hidden;
-	@include transition(all $transition--sm linear);
+	@include transition(all $transition--lg linear);
 	z-index:0;
 }
 
 .u-animate--ripple {
-	@include animation(ripple $transition--sm linear);
+	@include animation(ripple $transition--lg linear);
 }
 
 	@include keyframes(ripple) {
