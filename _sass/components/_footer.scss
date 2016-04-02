@@ -2,17 +2,23 @@
 	background: $gray;
 	padding: $spacing--md*2 $spacing--md;
 	font-size: 1rem;
-	// @include display(flex);
-	// @include justify-content(space-around);
-	// @include align-items(flex-start);
+}
+
+.Footer-subContainer {
+	width: 100%;
+	@include display(flex);
+	@include flex-direction(column);
+	@include flex-wrap(wrap);
+	@media screen and (min-width: $breakpoint--sm) {
+		@include flex-direction(row);
+	}
 }
 
 .FooterCategoryList {
 	width: 100%;
 	text-align: center;
 	@media screen and (min-width: $breakpoint--md) {
-		width: 33.2%;
-		display: inline-block;
+		width: calc(100% / 3);
 		box-sizing: border-box;
 		padding: $spacing--sm;
 	}
@@ -47,7 +53,7 @@
 	&:first-child {
 		margin-top: $spacing--md;
 	}
-	border-bottom: 1px solid $gray--dark;
+	border-bottom: 1px solid fade-out($gray--dark, .7);
 }
 	
 	.FooterCategoryList-link--subcategory {
