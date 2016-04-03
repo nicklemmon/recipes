@@ -1,0 +1,122 @@
+//===== NAVIGATION STYLES =====//
+
+
+.Navigation {
+	font-size: 1rem;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	background: #FFFFFF;
+	width: 80%;
+	height: 100%;
+    overflow: hidden;
+    box-shadow: 8px 2px 8px rgba(black, .075);
+    @media screen and (min-width: $breakpoint--md) {
+    	width: 40%;
+    }
+    @include transition(transform $transition--sm ease-in-out);
+}
+
+//=== Navigation Expanding/Collapsing Behavior ===///
+
+.Navigation.is-collapsed {
+	@include transform(translateX(-100%));
+}
+
+.Navigation.is-expanded {
+	@include transform(translateX(0%));
+}
+
+.NavCategoryList-section.is-collapsed {
+	max-height: 0;
+}
+
+.NavCategoryList-section.is-expanded {
+	max-height: 500px;
+}
+
+//=== Navigation Header ===//
+
+.Navigation-header {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+	color: #FFFFFF;
+	background: $gray--dark;
+	padding: $spacing--xl $spacing--md $spacing--md $spacing--md;
+	@media screen and (min-width: $breakpoint--md) {
+		padding: $spacing--xl $spacing--xl $spacing--md $spacing--xl;
+	}
+}
+
+.Navigation-title {
+	font-weight: 200;
+	font-size: 2.2em;
+}
+
+.Navigation-close {
+	position: relative;
+	height: 20px;
+	width: 28px;
+	cursor: pointer;
+}
+
+	.Header-menuBar--cross {
+		position: absolute;
+		left: 0;
+		top: 40%;
+		background: white;
+		&:first-of-type {
+			@include transform(rotate(45deg));
+		}
+		&:last-of-type {
+			@include transform(rotate(-45deg));
+		}
+	}
+
+//=== Category List ===//
+
+.NavCategoryList {
+	
+}
+
+.NavCategoryList-section {
+	@include transition(max-height $transition--sm linear);
+	overflow: hidden;
+}
+
+.NavCategoryList-link {
+	display: block;
+	text-decoration: none;
+	font-size: 1.3em;
+	width: 100%;
+	padding: $spacing--md;
+	border-bottom: 1px solid $gray--light;
+	@include transition(background $transition--sm ease);
+	&:hover {
+		background: $gray--lighter;
+	}
+	@media screen and (min-width: $breakpoint--md) {
+    	padding: $spacing--md $spacing--xl;
+    }
+}
+
+	.NavCategoryList-link--title {
+		color: $primary;
+		&:visited {
+			color: $primary;
+		}
+	}
+
+	.NavCategoryList-link--subcategory {
+		color: $gray--dark;
+	}
+
+.NavCategoryList-title {
+	cursor: pointer;
+}
+
+	.NavCategoryList-title--h4 {
+		text-transform: uppercase;
+		letter-spacing: .1em;
+	}

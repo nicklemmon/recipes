@@ -1,5 +1,15 @@
 //====== BASE STYLES ======//
 
+html {
+	min-height: 100%;
+	position: relative; // allows for absolute positioning of navigation component
+}
+
+body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
 
 //=== Containers ===//
 
