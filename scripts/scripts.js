@@ -1,3 +1,6 @@
+//===== CUSTOM SCRIPTS =====//
+
+//=== Material Ripple Effect ===//
 // borrowed with love from http://codepen.io/440design/pen/iEztk
 
 $(function(){
@@ -20,4 +23,25 @@ $(function(){
      
     ink.css({top: y+'px', left: x+'px'}).addClass("u-animate--ripple");
 });
+});
+
+//===== MENU SCRIPTS =====//
+
+var $navigation = $('.Navigation');
+var $navigationClose = $('.Navigation-close');
+var $navigationOpen = $('.Header-menu');
+var $navCategoryLink = $('.NavCategoryList-link--title');
+var $navSubcategorySection = $('.NavCategoryList-section');
+
+//=== Collapsing, expanding menu ===//
+$navigationOpen.on('click', function() {
+    $navigation.toggleClass('is-collapsed is-expanded');
+});
+$navigationClose.on('click', function() {
+    $navigation.toggleClass('is-collapsed is-expanded');
+});
+
+//=== Collapsing, expanding vertical drawers ===//
+$navCategoryLink.on('click', function() {
+    $(this).next($navSubcategorySection).toggleClass('is-collapsed is-expanded');
 });

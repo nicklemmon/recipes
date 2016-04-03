@@ -30,3 +30,7 @@
 	@include keyframes(ripple) {
 		100% {opacity: 0; -webkit-transform: scale(2.5);}
 	}
+
+.u-clearfix {
+	clear: both;
+}
