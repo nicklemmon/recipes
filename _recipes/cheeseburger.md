@@ -9,8 +9,8 @@ favorite:		yes						# is the recipe a favorite? Yes or no
 review:			4						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
-cook-time:		60						# cook time for the dish in minutes
-num-served:		5						# number of people served by the dish
+cooktime:		60						# cook time for the dish in minutes
+numserved:		5						# number of people served by the dish
 source:			http://allrecipes.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#

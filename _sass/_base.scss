@@ -49,3 +49,10 @@ body {
 		padding-bottom: $spacing--lg;
 	}
 }
+
+.SubContainer--recipe {
+	padding-top: $spacing--lg;
+	@include display(flex);
+	@include flex-direction(row);
+	@include flex-wrap(wrap);
+}
