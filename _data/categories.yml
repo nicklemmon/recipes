@@ -3,6 +3,7 @@
 maindish:
   shortname: maindish
   fullname: Main Dish
+  icon: pizza
   subcategories:
     - subcategory: beef
     - subcategory: poultry
@@ -13,10 +14,12 @@ maindish:
 favorites:
   shortname: favorites
   fullname: Favorites
+  icon: star
 
 sidedish:
   shortname: sidedish
   fullname: Side Dishes
+  icon: bowl
   subcategories:
     - subcategory: starches
     - subcategory: vegetables
@@ -24,6 +27,7 @@ sidedish:
 appetizers:
   shortname: appetizer
   fullname: Appetizers
+  icon: shrimp
   subcategories:
     - subcategory: hot
     - subcategory: cold
@@ -31,6 +35,7 @@ appetizers:
 drinks:
   shortname: drink
   fullname: Drinks
+  icon: martini
   subcategories:
     - subcategory: alcoholic
     - subcategory: hot
@@ -40,6 +45,7 @@ drinks:
 desserts:
   shortname: dessert
   fullname: Desserts
+  icon: popsicle
   subcategories:
     - subcategory: chocolate
     - subcategory: cake

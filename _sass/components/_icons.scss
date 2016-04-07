@@ -1,0 +1,25 @@
+//===== ICON STYLES =====//
+
+
+//=== List of Icons ===//
+
+$icons:
+	"popsicle",
+	"star",
+	"pizza",
+	"bowl",
+	"martini",
+	"shrimp";
+
+
+//=== And The Rest of Them Stylez ===//
+
+.Icon {
+	
+}
+
+@each $icon in $icons {
+	.Icon--#{$icon} {
+		background-image: url('../images/icons/icon--#{$icon}.svg');
+	}
+}
