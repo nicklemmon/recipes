@@ -90,11 +90,11 @@
 }
 
 .Tile-name--category {
-	&:after {
+	&:after { // bar below each category name
 		content: "";
 		display: block;
 		margin: 0 auto;
-		margin-top: $spacing--md;
+		margin-top: $spacing--lg/2;
 		width: 3.25em;
 		height: .1rem;
 		background: $primary--dark;
@@ -102,7 +102,7 @@
 }
 
 	.Tile-icon + .Tile-name--category {
-		margin-top: $spacing--md; // add this style when the .Tile-name--category element is the sibling to a .Tile-icon
+		margin-top: $spacing--sm; // add this style when the .Tile-name--category element is the sibling to a .Tile-icon
 	}
 
 .Tile-icon {
