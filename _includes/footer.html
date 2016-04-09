@@ -6,7 +6,7 @@
 
 	<ul class="FooterCategoryList">
 
-		<h3 class="FooterCategoryList-title FooterCategoryList-title--h3"><a class="FooterCategoryList-link FooterCategoryList-link--category" href="{{ category.shortname }}">{{ category.fullname }}</a></h3>
+		<h3 class="FooterCategoryList-title FooterCategoryList-title--h3"><a class="FooterCategoryList-link FooterCategoryList-link--category" href="{{ site.baseurl }}/{{ category.shortname }}">{{ category.fullname }}</a></h3>
 
 		{% for subcategories in category.subcategories | where:'category', category.category %}
 		<li class="FooterCategoryList-listItem">

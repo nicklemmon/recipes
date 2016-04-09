@@ -2,33 +2,36 @@
 layout: default		# parent layout
 ---
 
-<section class="Hero Hero--secondary">
-	<div class="SubContainer Hero-subContainer">
-
-		<h2 class="Hero-title Hero--h2">{{ page.title | capitalize }}</h2>
-
-	</div>
+<section class="Hero Hero--tertiary">
+	<h2 class="Hero-title Hero-title--h2">{{ page.title | capitalize }}</h2>
 </section> <!-- /.Hero -->
 
 <section class="RecipeContent">
-	<div class="SubContainer RecipeContent-subContainer">
-		<div class="u-column u-column--2-3">
-			
+	<div class="SubContainer SubContainer--recipe">
+		<div class="Tile Tile--recipeSteps">
+			<article class="Tile-recipeIngredientList">
+				<h4 class="Tile-title Tile-title--h4">Ingredients</h4>
 
-			<article class="RecipeIngredientList">
 				{{ page.ingredients }}
 			</article> <!-- /.IngredientList -->
 
+			<article class="Tile-steps">
+				<h4 class="Tile-title Tile-title--h4">Steps</h4>
 
-			<article class="RecipeSteps">
 				{{ content }}
-			</article> <!-- /.RecipeSteps -->
-			
+			</article> <!-- /.Tile--recipeSteps -->	
+		</div> <!-- /.Tile--recipeSteps -->
 
-		</div> <!-- /.u-column--2-3 -->
+		<aside class="Tile Tile--recipeData">
+			<h5 class="Tile-title Tile-title--h5">Estimated cooking time</h5>
+			<p>{{ page.cooktime }}</p>
 
-		<aside class="u-column u-column--1-3">
-		</aside> <!-- /.u-column--1-3 -->
+			<h5 class="Tile-title Tile-title--h5">Number served</h5>
+			<p>{{ page.numserved }}</p>
+
+			<h5 class="Tile-title Tile-title--h5">Recipe source</h5>
+			<a href="{{ page.source }}">{{ page.source }}</a>
+		</aside> <!-- /.Tile--recipeData -->
 	</div>
 </section> <!-- /.Subcontainer -->
 

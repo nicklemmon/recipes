@@ -12,7 +12,6 @@
 @import 'vars';
 @import 'base';
 @import 'typography';
-@import 'layout';
 @import 'utilities';
 @import 'states'; // dynamically added classes that are temporary states
 
@@ -21,5 +20,6 @@
 @import 'components/navigation';
 @import 'components/hero';
 @import 'components/tiles';
+@import 'components/icons';
 @import 'components/footer';
 

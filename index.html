@@ -6,7 +6,7 @@ title: Nick and Laurie's Recipe Collection
 <section class="Hero Hero--primary">
 	<h1 class="Hero-title Hero-title--h1">Welcome</h1>
 	
-	<h2 class="Hero-title Hero-title--h2">to Nick and Laurie's recipe collection</h2>
+	<h2 class="Hero-title Hero-title--h2 Hero-title--h2--subtitle">to Nick and Laurie's recipe collection</h2>
 </section> <!-- /.Hero -->
 
 <section class="SubContainer SubContainer--categoryNav">
@@ -15,7 +15,7 @@ title: Nick and Laurie's Recipe Collection
 	{% assign category = category_hash[1] %}
 
 		<a href="{{ site.baseurl }}/{{ category.shortname }}" class="Tile Tile--category u-rippleLink">
-			<span class="Tile-icon Tile-icon--{{ category.shortname }} "></span>
+			<span class="Icon Icon--{{ category.icon }} Tile-icon"></span>
 			<p class="Tile-name Tile-name--category">{{ category.fullname }}</p>
 		</a> <!-- .Tile--category -->
 

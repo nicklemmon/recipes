@@ -1,7 +1,9 @@
-//===== TILES =====//
+//===== TILE STYLES=====//
+
 
 .Tile {
 	display: block;
+	height: 100%;
 	background: #FFFFFF;
 	text-decoration: none;
 	box-sizing: border-box;
@@ -13,17 +15,28 @@
 	}
 }
 
-.Tile-icon {
-	display: none;
-	@media screen and (min-width: $breakpoint--md) {
-		display: block;
-	}
-}
 
 .Tile-name {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-weight: 300;
 	color: $gray--dark;
+}
+
+.Tile-title--h4 {
+	text-transform: uppercase;
+	color: $primary;
+	font-weight: 300;
+	font-size: 1.6em;
+	text-align: center;
+	&:after {
+		content: '';
+		margin: $spacing--sm auto;
+		position: relative;
+		display: block;
+		height: .1rem;
+		width: 4rem;
+		background: $primary;
+	}
 }
 
 //=== Tile Review ===//
@@ -70,20 +83,40 @@
 	@include display(flex);
 	@include justify-content(center);
 	@include align-items(center);
+	@include flex-direction(column);
 	&:nth-child(odd) {
 		border-right: .1em solid $gray--light;
 	}
 }
 
 .Tile-name--category {
-	&:after {
+	&:after { // bar below each category name
 		content: "";
 		display: block;
 		margin: 0 auto;
-		margin-top: $spacing--md;
+		margin-top: $spacing--lg/2;
 		width: 3.25em;
 		height: .1rem;
 		background: $primary--dark;
+	}
+}
+
+	.Tile-icon + .Tile-name--category {
+		margin-top: $spacing--sm; // add this style when the .Tile-name--category element is the sibling to a .Tile-icon
+	}
+
+.Tile-icon {
+	display: none;
+	@media screen and (min-width: $breakpoint--md) {
+		display: block;
+		box-sizing: border-box;
+		@include size (5rem);
+		padding: $spacing--xs;
+		background-size: 70%;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		border-radius: 50%;
+		border: .1rem solid $primary;
 	}
 }
 
@@ -99,7 +132,7 @@
 }
 
 
-//=== Recipe Tile ===//
+//=== Recipe (Link) Tile ===//
 
 .Tile--recipe {
 	padding: $spacing--lg;
@@ -122,3 +155,34 @@
 	font-size: 1.3em;
 }
 
+//=== Recipe Steps Tile ===//
+
+.Tile--recipeSteps {
+	padding: 3em;
+	width: 100%;
+	@media screen and (min-width: $breakpoint--md) {
+		width: calc(100% * (2/3) - 3em);
+	}
+}
+	
+	.Tile-steps,
+	.Tile-recipeIngredientList {
+		padding: 3em;
+	}
+
+	.Tile-recipeIngredientList {
+		border: 1px solid $gray--light;
+	}
+
+//=== Recipe Data Tile ===//
+
+.Tile--recipeData {
+	padding: 3em;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	@media screen and (min-width: $breakpoint--md) {
+		width: calc(100% / 3);
+		margin-left: 3em;
+	}
+}

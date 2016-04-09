@@ -1,5 +1,6 @@
 //====== BASE STYLES ======//
 
+
 html {
 	min-height: 100%;
 	position: relative; // allows for absolute positioning of navigation component
@@ -48,4 +49,11 @@ body {
 		margin-top: -$spacing--md;
 		padding-bottom: $spacing--lg;
 	}
+}
+
+.SubContainer--recipe {
+	padding-top: $spacing--lg;
+	@include display(flex);
+	@include flex-direction(row);
+	@include flex-wrap(wrap);
 }
