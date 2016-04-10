@@ -1,0 +1,21 @@
+---
+layout: default		# parent layout
+---
+
+<section class="Hero Hero--secondary Hero--{{ page.category }}">
+	<h2 class="Hero-title Hero-title--h2">{{ page.link-title | capitalize }}</h2>
+</section> <!-- /.Hero -->
+
+
+<section class="SubContainer SubContainer--categoryNav SubContainer--subCategoryNav">
+
+	{% for category_hash in site.data.categories %}
+	{% assign category = category_hash[1] %}
+
+		<a href="{{ site.baseurl }}/favorites/{{ category.shortname }}" class="Tile Tile--category Tile--subCategory u-rippleLink">
+			<p class="Tile-name Tile-name--category">{{ category.shortname }} Favorites</p>
+		</a> <!-- .Tile--category -->
+
+	{% endfor %}		
+
+</section> <!-- /.SubContainer--subCategoryNav -->
