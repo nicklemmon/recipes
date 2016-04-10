@@ -3,14 +3,14 @@
 
 .Hero {
 	font-size: 1rem;
-	height: 20em;
+	height: 35em;
 	background: $primary;
 	@include display(flex);
 	@include align-items(center);
 	@include justify-content(center);
 	@include flex-direction(column);
 	@media screen and (min-width: $breakpoint--md) {
-		height: 36em;
+		height: 40em;
 	}
 }
 
@@ -24,7 +24,7 @@
 .Hero--tertiary {
 	background: $accent;
 	@media screen and (min-width: $breakpoint--md) {
-		height: 20em;
+		height: 24em;
 	}
 }
 
@@ -45,12 +45,12 @@
 .Hero-title--h2 {
 	color: #FFFFFF;
 	font-size: 3.6em;
-	font-weight: 200;
+	font-weight: 400;
 	max-width: 10em;
 	z-index: 1;
-	text-shadow: 0 2px 3px rgba(black, .4);
+	//text-shadow: 0 2px 3px rgba(black, .4);
 	@media screen and (min-width: $breakpoint--md) {
-		font-size: 3.9em;
+		font-size: 3.5em;
 		line-height: 120%;
 	}
 }
