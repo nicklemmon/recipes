@@ -1,6 +1,6 @@
 {% for recipe in recipes %}
 
-	<a href="{{ site.baseurl }}/{{ recipe.category | remove: " " }}/{{ recipe.subcategory | remove: " "}}/{{ recipe.title | remove: " "}}" class="Tile Tile--recipe u-rippleLink">
+	<a href="/recipes{{ recipe.url }}" class="Tile Tile--recipe u-rippleLink">
 		<p class="Tile-name Tile-name--recipe">{{ recipe.title }}</p>
 		
 		{% if recipe.review %} {%comment%} If a review score is provided, produce the following {%endcomment%}

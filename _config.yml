@@ -20,4 +20,3 @@ collections:
   recipes: # defines collection such that .md files in the _recipes directory output appropriately
     layout: recipe # sets default layout for files generated from _recipes directory
     output: true
-    permalink: /:categories/:title/

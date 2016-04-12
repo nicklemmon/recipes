@@ -15,7 +15,7 @@ layout: default		# parent layout
 
 		{% for subcategories in category.subcategories %}
 
-			<a href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory }}" class="Tile Tile--category Tile--subCategory u-rippleLink">
+			<a href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory | remove: " " }}" class="Tile Tile--category Tile--subCategory u-rippleLink">
 				<p class="Tile-name Tile-name--category">{{ subcategories.subcategory }}</p>
 			</a> <!-- .Tile--category -->
 
