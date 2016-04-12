@@ -2,34 +2,15 @@
 layout: default		# parent layout
 ---
 
-{% assign recipes = site.recipes | where:'subcategory', page.subcategory %} {%comment%} 'recipes' in the following loop are recipes in which the subcategory of the recipe matches a the subcategory of a subcategory page {%endcomment%}
+{% assign recipes = site.recipes | where:'subcategory', page.subcategory %} {%comment%} 'recipes' in the following loop are recipes in which the subcategory of the recipe matches the subcategory of a subcategory page {%endcomment%}
 
-<section class="Hero Hero--secondary Hero--{{ page.subcategory }}">
+<section class="Hero Hero--secondary Hero--{{ page.category | remove: " " }}">
 	<h2 class="Hero-title Hero-title--h2">{{ page.subcategory | capitalize }} Recipes</h2>
 </section> <!-- /.Hero -->
 
 
 <section class="SubContainer SubContainer--recipeNav">
 
-{% for recipe in recipes %}
-
-	<a href="{{ site.baseurl }}/{{ recipe.category | remove: " " }}/{{ recipe.subcategory | remove: " "}}/{{ recipe.title | remove: " "}}" class="Tile Tile--recipe u-rippleLink">
-		<p class="Tile-name Tile-name--recipe">{{ recipe.title }}</p>
-		
-		{% if recipe.review %} {%comment%} If a review score is provided, produce the following {%endcomment%}
-		<div class="Tile-review">
-		{% for i in (1..{{recipe.review}}) limit:5 %}
-		    <span class="Tile-review-star Tile-review-star--filled"></span>
-		{% endfor %}
-
-		{% for i in ({{recipe.review}}..4) limit:5 %}
-		    <span class="Tile-review-star Tile-review-star--empty"></span>
-		{% endfor %}
-		</div>
-		{% endif %}
-
-	</a> <!-- .Tile--category -->
-	
-{% endfor %}
+{% include recipe-tile-loop.html %}
 
 </section>
