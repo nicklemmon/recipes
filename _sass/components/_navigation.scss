@@ -34,7 +34,6 @@
 
 .NavCategoryList-section.is-expanded {
 	max-height: 500px;
-	background: rgba($gray--light, .3);
 }
 
 //=== Navigation Header ===//
@@ -91,6 +90,7 @@
 .NavCategoryList-title {
 	cursor: pointer;
 	box-shadow: 0 0 0 0;
+	background: #FFFFFF !important; // used to override background set by .NavCategoryList-link
 	&:hover {
 		box-shadow: 0 .2em .1em $gray--light;
 	}
@@ -108,6 +108,7 @@
 	width: 100%;
 	padding: $spacing--md;
 	border-bottom: 1px solid $gray--light;
+	background: rgba($gray--light, .3);
 	@include transition(background $transition--sm ease);
 	&:hover {
 		background: $gray--lighter;

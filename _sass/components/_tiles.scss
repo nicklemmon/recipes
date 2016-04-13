@@ -10,11 +10,13 @@
 	border-bottom: .1em solid $gray--light;
 	box-shadow: 0 .4em 0 rgba(#FCFCFC, .5);
 	@include transition(background, $transition--sm);
-	&:hover {
-		background: $gray--lighter;
-	}
 }
 
+	a.Tile {
+		&:hover {
+			background: $gray--lighter; // hover effect applied only to .Tile classes applied to <a> tags
+		}
+	}
 
 .Tile-name {
 	font-size: 1.3rem;
@@ -38,6 +40,7 @@
 		background: $primary;
 	}
 }
+
 
 //=== Tile Review ===//
 
@@ -67,6 +70,7 @@
 	.Tile-review-star--empty {
 		background-image: url('../images/icons/icon--star-empty.svg')
 	}
+
 
 //===== TILE SUBTYPES =====//
 
@@ -154,6 +158,7 @@
 	font-size: 1.3em;
 }
 
+
 //=== Recipe Steps Tile ===//
 
 .Tile--recipeSteps {
@@ -172,6 +177,52 @@
 	.Tile-recipeIngredientList {
 		border: 1px solid $gray--light;
 	}
+
+.Tile-unorderedList,
+.Tile-steps ol {
+	font-size: 1.3rem;
+}
+
+.Tile-listItem {
+
+}
+
+//=== Recipe Steps (Output from markdown - naming convention doesn't apply!) ===//
+.Tile-steps {
+
+	ol {
+		counter-reset: item;
+		li {
+			counter-increment: item;
+			@include display(flex);
+			@include align-items(center);
+			margin-bottom: $spacing--lg;
+			&:first-child {
+				margin-top: $spacing--lg;
+			}
+			&:before {
+				// content: counter(item);
+				// font-size: 3em;
+				// color: $gray;
+				// padding-right: 	$spacing--md;
+				// border-right: 	.1rem solid $gray;
+				// margin-right: 	$spacing--md;
+				// font-weight: 100;
+				content: counter(item);
+				@include display(flex);
+				@include align-items(center);
+				@include justify-content(center);
+				color: #FFFFFF;
+				background: $primary;
+				border-radius: 50%;
+				@include size($spacing--sm*3);
+				margin-right: $spacing--md;
+			}
+		}
+	}
+
+}
+
 
 //=== Recipe Data Tile ===//
 

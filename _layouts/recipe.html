@@ -2,7 +2,7 @@
 layout: default		# parent layout
 ---
 
-<section class="Hero Hero--tertiary">
+<section class="Hero Hero--tertiary Hero--{{ page.category | remove: " "}}">
 	<h2 class="Hero-title Hero-title--h2">{{ page.title | capitalize }}</h2>
 </section> <!-- /.Hero -->
 
@@ -11,14 +11,21 @@ layout: default		# parent layout
 		<div class="Tile Tile--recipeSteps">
 			<article class="Tile-recipeIngredientList">
 				<h4 class="Tile-title Tile-title--h4">Ingredients</h4>
+				
+				<ul class="Tile-unorderedList">
+				{% assign words = page.ingredients | split:"," %} {%comment%} the ingredients listed in a recipe are split by ',', then loop through to make a list item for every ingredient {%endcomment%}
+				{% for word in words %}
+					<li class="Tile-listItem">{{ word | capitalize }}</li>
+				{% endfor %}
+				</ul>
 
-				{{ page.ingredients }}
 			</article> <!-- /.IngredientList -->
 
 			<article class="Tile-steps">
 				<h4 class="Tile-title Tile-title--h4">Steps</h4>
 
-				{{ content }}
+				{{ content }} {%comment%} write the steps required in markdown, usually an ordered list if you want it to look right {%endcomment%}
+
 			</article> <!-- /.Tile--recipeSteps -->	
 		</div> <!-- /.Tile--recipeSteps -->
 

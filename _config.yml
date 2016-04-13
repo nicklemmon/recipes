@@ -14,6 +14,7 @@ permalink: pretty
 # Sass settings
 sass:
   style: compressed
+  sourcemap: true
 
 # Collections
 collections:
