@@ -5,7 +5,6 @@ layout: recipe
 title: 			cheeseburger			# name of the dish
 category:		main dish				# category for the dish
 subcategory:	beef					# subcategory for the dish
-favorite:		yes						# is the recipe a favorite? Yes or no
 review:			4						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#

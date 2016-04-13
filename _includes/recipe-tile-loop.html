@@ -1,0 +1,20 @@
+{% for recipe in recipes %}
+
+	<a href="/recipes{{ recipe.url }}" class="Tile Tile--recipe u-rippleLink">
+		<p class="Tile-name Tile-name--recipe">{{ recipe.title }}</p>
+		
+		{% if recipe.review %} {%comment%} If a review score is provided, produce the following {%endcomment%}
+		<div class="Tile-review">
+		{% for i in (1..{{recipe.review}}) limit:5 %}
+		    <span class="Tile-review-star Tile-review-star--filled"></span>
+		{% endfor %}
+
+		{% for i in ({{recipe.review}}..4) limit:5 %}
+		    <span class="Tile-review-star Tile-review-star--empty"></span>
+		{% endfor %}
+		</div>
+		{% endif %}
+
+	</a> <!-- .Tile--category -->
+	
+{% endfor %}

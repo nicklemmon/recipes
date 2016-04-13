@@ -28,7 +28,7 @@ body {
 	@include display(flex);
 	@include flex-direction(row);
 	@include flex-wrap(wrap);
-	@media screen and (min-width: $breakpoint--sm) {
+	@media screen and (min-width: $breakpoint--md) {
 		margin-top: -$spacing--xl;
 		padding-bottom: $spacing--lg*2;
 	}

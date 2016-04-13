@@ -1,13 +1,5 @@
 ---
-layout: default
-category: favorite
+layout: favorites-list
+category: favorites
 link-title: Favorites
 ---
-
-{% assign recipes = site.recipes | where:'favorite', 'yes' %} {%comment%} 'recipes' in the following loop are recipes in which the recipe is marked as a 'favorite' in the frontmatter {%endcomment%}
-
-{% for recipe in recipes %}
-
-	{{ recipe.title }}
-	
-{% endfor %}}

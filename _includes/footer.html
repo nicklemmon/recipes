@@ -10,7 +10,7 @@
 
 		{% for subcategories in category.subcategories | where:'category', category.category %}
 		<li class="FooterCategoryList-listItem">
-			<a class="FooterCategoryList-link FooterCategoryList-link--subcategory" href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory }}">{{ subcategories.subcategory | capitalize }}</a>
+			<a class="FooterCategoryList-link FooterCategoryList-link--subcategory" href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory | remove: " " }}">{{ subcategories.subcategory | capitalize }}</a>
 		</li>
 		{% endfor %}
 	

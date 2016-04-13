@@ -5,7 +5,6 @@ layout: recipe
 title: 			french fries			# name of the dish
 category:		side dish				# category for the dish
 subcategory:	starch					# subcategory for the dish
-favorite:		no						# is the recipe a favorite? Yes or no
 review:			3						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#

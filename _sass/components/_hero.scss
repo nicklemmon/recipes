@@ -3,14 +3,14 @@
 
 .Hero {
 	font-size: 1rem;
-	height: 20em;
+	height: 35em;
 	background: $primary;
 	@include display(flex);
 	@include align-items(center);
 	@include justify-content(center);
 	@include flex-direction(column);
 	@media screen and (min-width: $breakpoint--md) {
-		height: 36em;
+		height: 40em;
 	}
 }
 
@@ -22,9 +22,9 @@
 }
 
 .Hero--tertiary {
-	background: $accent;
+	background: $gray--dark;
 	@media screen and (min-width: $breakpoint--md) {
-		height: 20em;
+		height: 24em;
 	}
 }
 
@@ -35,28 +35,28 @@
 .Hero-title--h1 {
 	font-family: $fontStack--secondary;
 	color: $primary--dark;
-	font-size: 4em;
+	font-size: 5.2em;
 	@media screen and (min-width: $breakpoint--md) {
-		font-size: 7.2em;
+		font-size: 7.5em;
 		margin-top: -$spacing--xl; // adjustment based on negative margin from .SubContainer--categoryNav
 	}
 }
 
 .Hero-title--h2 {
 	color: #FFFFFF;
-	font-size: 2.8em;
-	font-weight: 200;
+	font-size: 3.6em;
+	font-weight: 400;
 	max-width: 10em;
 	z-index: 1;
-	text-shadow: 0 2px 3px rgba(black, .4);
+	text-shadow: 0 2px 6px rgba(black, .2);
 	@media screen and (min-width: $breakpoint--md) {
-		font-size: 3.9em;
+		font-size: 3.5em;
 		line-height: 120%;
 	}
 }
 
 .Hero-title--h2--subtitle {
-	font-size: 2.4em;
+	font-size: 3em;
 	@media screen and (min-width: $breakpoint--md) {
 		font-size: 3.6em;
 	}
@@ -67,6 +67,7 @@
 
 $categories-and-icons: (
 	maindish: pizza,
+	favorites: star,
 	sidedish: bowl,
 	appetizer: shrimp,
 	drink: martini,
@@ -82,7 +83,7 @@ $categories-and-icons: (
 			z-index: 0;
 			@include size(100%);
 			top: 0; right: 0; bottom: 0; left: 0;
-			background-image: url('#{$path--images}/patterns/pattern--#{$icon}.svg');
+			background-image: url('../images/patterns/pattern--#{$icon}.svg');
 			background-size: 10%;
 			opacity: .09;
 			@media screen and (min-width: $breakpoint--md) {

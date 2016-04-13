@@ -1,0 +1,16 @@
+---
+layout: default		# parent layout
+---
+
+{% assign recipes = site.recipes | where:'review', 5 %} {%comment%} 'recipes' in the following loop are recipes in which the recipe scores a 5 out of 5 {%endcomment%}
+
+<section class="Hero Hero--secondary Hero--favorites">
+	<h2 class="Hero-title Hero-title--h2">Our (Very) Favorite Recipes</h2>
+</section> <!-- /.Hero -->
+
+<section class="SubContainer SubContainer--recipeNav">
+
+{% include recipe-tile-loop.html %}
+
+</section>
+
