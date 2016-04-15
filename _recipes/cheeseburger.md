@@ -13,7 +13,7 @@ numserved:		5						# number of people served by the dish
 source:			http://allrecipes.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#
-ingredients:	bun, meat, cheese		# what are the ingredients?
+ingredients:	bun, meat, cheese, lettuce, tomato, 1/4 teaspoon mustard, 2 tbsp ketchup, BBQ sauce, what happens if the ingredient is really long, or if there are lots of ingredients, like, this, one, or two, three, four, four score and eighty years ago # what are the ingredients? (separated by commas)
 ---
 
 

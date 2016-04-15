@@ -24,6 +24,19 @@
 	color: $gray--dark;
 }
 
+.Tile-paragraph {
+	font-size: 1.2em;
+}
+
+.Tile-linkEmphasis {
+	color: $accent;
+	font-size: 1.3em;
+	text-decoration: none;
+	display: block;
+	padding: $spacing--xs;
+	border: .2em solid $accent;
+}
+
 .Tile-title--h4 {
 	text-transform: uppercase;
 	color: $primary;
@@ -40,6 +53,13 @@
 		background: $primary;
 	}
 }
+
+	.Tile-title--h5 {
+		font-size: 1.3em;
+		margin-bottom: $spacing--sm;
+		font-weight: 700;
+		color: $accent--dark;
+	}
 
 
 //=== Tile Review ===//
@@ -168,7 +188,7 @@
 		width: calc(100% * (2/3) - 3em);
 	}
 }
-	
+
 	.Tile-steps,
 	.Tile-recipeIngredientList {
 		padding: 3em;
@@ -178,45 +198,51 @@
 		border: 1px solid $gray--light;
 	}
 
+	.Tile-listItem--ingredient {
+		padding: $spacing--sm;
+		text-align: center;
+		border-bottom: .1em solid $gray--light;
+		&:first-of-type {
+			margin-top: $spacing--md;
+			border-top: .1em solid $gray--light;
+		}
+	}
+
 .Tile-unorderedList,
 .Tile-steps ol {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 }
 
 .Tile-listItem {
-
+	line-height: 180%;
 }
 
 //=== Recipe Steps (Output from markdown - naming convention doesn't apply!) ===//
-.Tile-steps {
 
+.Tile-steps {
 	ol {
 		counter-reset: item;
 		li {
 			counter-increment: item;
-			@include display(flex);
-			@include align-items(center);
-			margin-bottom: $spacing--lg;
+			margin: 0 auto $spacing--lg auto;
+			max-width: 80%;
+			text-align: center;
+			line-height: 180%;
 			&:first-child {
 				margin-top: $spacing--lg;
 			}
 			&:before {
-				// content: counter(item);
-				// font-size: 3em;
-				// color: $gray;
-				// padding-right: 	$spacing--md;
-				// border-right: 	.1rem solid $gray;
-				// margin-right: 	$spacing--md;
-				// font-weight: 100;
-				content: counter(item);
 				@include display(flex);
 				@include align-items(center);
 				@include justify-content(center);
+				content: counter(item);
 				color: #FFFFFF;
-				background: $primary;
+				border: .1em solid $primary;
+				color: $primary;
 				border-radius: 50%;
-				@include size($spacing--sm*3);
-				margin-right: $spacing--md;
+				@include size(30px);
+				margin: 0 auto $spacing--sm auto;
+				max-width: 20%;
 			}
 		}
 	}
@@ -235,4 +261,11 @@
 		width: calc(100% / 3);
 		margin-left: 3em;
 	}
+}
+
+.Tile-dataSection {
+	&:first-of-type {
+		padding-top: 0;
+	}
+	padding: $spacing--md 0 $spacing--sm 0;
 }
