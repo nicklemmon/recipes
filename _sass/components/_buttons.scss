@@ -1,0 +1,41 @@
+//===== BUTTON STYLES =====//
+
+
+.Button {
+	border-radius: .3rem;
+	border-width: .2rem;
+	border-style: solid;
+	max-width: 8rem;
+	text-decoration: none;
+	padding: 1rem 3.2rem;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	background-size: 100% 200%;
+	background-position: 0 0;
+	@include transition(background-position $transition--sm ease, color $transition--sm ease, text-shadow $transition--sm ease);
+	&:hover {
+		background-position: 0 100%;
+		color: #FFFFFF;
+	}
+}
+
+
+//=== Mixin to Define Button Subtypes ===//
+
+@mixin button-colors($color) {
+	color: $color;
+	border-color: $color;
+	@include linear-gradient(to top, $color 50%, #FFFFFF 50%);
+	&:hover {
+		text-shadow: 0 .1em .2em darken($color, 10%);
+	}
+}
+
+.Button--primary {
+	@include button-colors($primary);
+}
+
+.Button--secondary {
+	@include button-colors($accent);
+}

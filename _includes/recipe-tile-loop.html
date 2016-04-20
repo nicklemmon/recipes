@@ -1,4 +1,13 @@
-{% for recipe in recipes %}
+{% if recipes.size < 1 %} {% comment %}If there are no recipes to show based on the given criteria, then this message displays{% endcomment %}
+	
+	<div class="Tile Tile--error">
+		<p class="Tile-paragraph Tile-paragraph--error">Sorry, friend. No recipes here! :(</p>
+		<a href="{{ site.baseurl }}/" class="Button Button--secondary">Save me!</a>
+	</div>
+
+{% else %}
+
+{% for recipe in recipes %} {% comment %}Otherwise, make a new tile for every recipe that meets the criteria defined in the page{% endcomment %}
 
 	<a href="/recipes{{ recipe.url }}" class="Tile Tile--recipe u-rippleLink">
 		<p class="Tile-name Tile-name--recipe">{{ recipe.title }}</p>
@@ -18,3 +27,5 @@
 	</a> <!-- .Tile--category -->
 	
 {% endfor %}
+
+{% endif %}

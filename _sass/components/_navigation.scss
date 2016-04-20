@@ -25,7 +25,7 @@
 
 .Navigation.is-collapsed {
 	@include transform(translateX(-100%));
-	@include transition(transform $transition--lg ease-in-out);
+	@include transition(transform $transition--lg*1.5 ease-in-out);
 }
 
 .NavCategoryList-section.is-collapsed {
@@ -60,6 +60,11 @@
 	height: 20px;
 	width: 28px;
 	cursor: pointer;
+	border-radius: 50%;
+	@include transition(transform $transition--sm ease);
+	&:hover {
+		@include transform(scale(1.2));
+	}
 }
 
 	.Header-menuBar--cross {
@@ -91,7 +96,9 @@
 	cursor: pointer;
 	box-shadow: 0 0 0 0;
 	background: #FFFFFF !important; // used to override background set by .NavCategoryList-link
+	@include transition(background $transition--sm ease-in-out);
 	&:hover {
+		background: $gray--lighter !important; // ...and this overrides the previous background property
 		box-shadow: 0 .2em .1em $gray--light;
 	}
 }
