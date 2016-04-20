@@ -66,6 +66,27 @@
 	}
 
 
+//=== Tile Error ===//
+
+.Tile--error {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(center);
+	@include flex-direction(column);
+	width: 100%;
+	padding: $spacing--lg;
+	margin-top: -$spacing--sm;
+	z-index: 0;
+}
+
+.Tile-paragraph--error {
+	font-size: 2.3em;
+	font-weight: 700;
+	margin: $spacing--md auto $spacing--lg auto;
+	text-align: center;
+}
+
+
 //=== Tile Review ===//
 
 .Tile-review {
@@ -156,6 +177,13 @@
 	@media screen and (min-width: $breakpoint--md) {
 		height: 17.5rem;
 	}
+}
+
+//=== Tile Link ===//
+
+.Tile-link {
+	color: $accent;
+	font-size: 1.4em;
 }
 
 
