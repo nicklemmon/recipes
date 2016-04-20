@@ -11,10 +11,10 @@ maindish:
     - subcategory: vegetarian
     - subcategory: ethnic
 
-favorites:
-  shortname: favorites
-  fullname: Favorites
-  icon: star
+# favorites:
+#   shortname: favorites
+#   fullname: Favorites
+#   icon: star
 
 sidedish:
   shortname: sidedish
