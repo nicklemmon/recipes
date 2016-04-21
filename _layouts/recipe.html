@@ -15,7 +15,7 @@ layout: default		# parent layout
 				<ul class="Tile-unorderedList Tile-unorderedList--ingredientList">
 				{% assign words = page.ingredients | split:"," %} {%comment%} the ingredients listed in a recipe are split by ',', then loop through to make a list item for every ingredient {%endcomment%}
 				{% for word in words %}
-					<li class="Tile-listItem Tile-listItem--ingredient">{{ word | remove_first:' ' | capitalize }}</li>
+					<li class="Tile-listItem Tile-listItem--ingredient">{{ word }}</li>
 				{% endfor %}
 				</ul>
 
