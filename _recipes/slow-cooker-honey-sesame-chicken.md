@@ -1,0 +1,21 @@
+---
+layout: recipe
+
+#=== Meta Info ===#
+title: 			slow cooker honey sesame chicken
+category:		main dish					
+subcategory:	poultry
+review:			3
+
+#=== Stuff for the Sidebar ===#
+cooktime:		6 hours
+numserved:		8
+source:			http://allrecipes.com
+
+#=== Stuff for the ingredients list ===#
+ingredients:	4 boneless chicken breasts, salt and pepper, 1 cup honey, 1/2 cup soy sauce, 1/2 cup diced onion, 1/4 cup ketchup, 2 tablespoons vegetable oil, 2 cloves garlic, 1/4 teaspoon red pepper flakes, 4 teaspoons cornstarch
+---
+
+1. Season both sides of chicken with lightly with salt and pepper, put into crock pot. In a small bowl, combine honey, soy sauce, onion, ketchup, oil, garlic and pepper flakes. Pour over chicken.
+2. Cook on low for 3-4 hours or on high 1 1/2 to 2 1/2 hours, or just until chicken is cooked through. Remove chicken from crock pot, leave sauce. Dissolve 4 teaspoons of cornstarch in 6 tablespoons of water and pour into crock pot. Stir to combine with sauce.
+3. Replace lid and cook sauce on high for ten more minutes or until slightly thickened. Cut chicken into bite size pieces, then return to pot and toss with sauce before serving. Sprinkle with sesame seeds and serve over rice or noodles.

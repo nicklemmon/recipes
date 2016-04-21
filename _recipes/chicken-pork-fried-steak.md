@@ -5,7 +5,7 @@ layout: recipe
 title: 			chicken pork fried steak	# name of the dish
 category:		main dish					# category for the dish
 subcategory:	poultry						# subcategory for the dish
-review:			5							# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
+review:			1						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
 cook-time:		20							# cook time for the dish in minutes
