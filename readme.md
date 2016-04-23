@@ -1,8 +1,21 @@
 # Readme for nicklemmon.com/recipes
 
----
-
 ## Using the site
+
+### Running the project
+This project uses [Jekyll](http://jekyllrb.com/). It's fairly easy to get up and running.
+
+If you haven't used Jekyll before, open your terminal and try the following:
+```
+gem install jekyll
+```
+
+After cloning the repo, just `cd` over to the new directory and run the following:
+```
+jekyll serve
+```
+
+A server will start. You can then point your browser to [127.0.0.1/recipes](http://127.0.0.1:4000/recipes/).
 
 ### Adding new recipes
 In order to add a new recipe, simply create a new file in the `_recipes` directory in the root of the project.
