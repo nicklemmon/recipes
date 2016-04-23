@@ -2,7 +2,7 @@
 
 maindish:
   shortname: maindish
-  fullname: Main Dish
+  fullname: Main Dishes
   icon: pizza
   subcategories:
     - subcategory: beef
