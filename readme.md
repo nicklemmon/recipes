@@ -15,7 +15,7 @@ After cloning the repo, just `cd` over to the new directory and run the followin
 jekyll serve
 ```
 
-A server will start. You can then point your browser to [127.0.0.1/recipes](http://127.0.0.1:4000/recipes/).
+A server will start. You can then point your browser to [127.0.0.1:4000/recipes](http://127.0.0.1:4000/recipes/).
 
 ### Adding new recipes
 In order to add a new recipe, simply create a new file in the `_recipes` directory in the root of the project.
@@ -30,7 +30,7 @@ layout: recipe
 title: 			chicken pork fried steak	# name of the dish
 category:		main dish					# category for the dish
 subcategory:	poultry						# subcategory for the dish
-review:			1						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
+review:			1							# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
 cook-time:		20							# cook time for the dish in minutes
@@ -56,7 +56,7 @@ After filling in the frontmatter, simply type the steps required to complete the
 ### Developing the site
 
 ### Coding conventions
-- Using [SUIT CSS Naming Convention](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
+- Sass files use [SUIT CSS Naming Convention](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
 - .scss variables are like this -> $likeThis with modifiers $likeThis--modifier
 - Title comments within .scss are structured as follows:
 
@@ -72,6 +72,10 @@ After filling in the frontmatter, simply type the steps required to complete the
 
 #### Creating new categories
 New categories can be created in `_data/categories.yml`. Categories have a `shortname` and a `fullname` that are used in various contexts dynamically in the site.
+
+New categories require a new index page in the root of the project as well as a new directory to contain subcategory pages.
+
+For example, if I want to create a `awesome sauces` category, I will need to add both `awesome-sauces.html` to the root as well as `awesome-sauces/` for everything to run smoothly.
 
 ##### Creating new subcategories
 Subcategories are specified within each category in `_data/categories.yml`. In addition to adding the subcategory in the data file, a new page needs to be added to the appropriate category directory in the root.
@@ -93,5 +97,8 @@ In sum, for each new subcategory, do the following:
 3. Update the frontmatter of that new page as defined in the previous example
 
 ##### Icons for categories
-Specify an icon for a category in the same `_data/categories.yml` file. Give the name fot he `.svg` file you plan on using and place it inside `images/icons/`.
+Specify an icon for a category in the same `_data/categories.yml` file. Give the name of he `.svg` file you plan on using and place it inside `images/icons/`.
+
+As a last step, make your way over to `_sass/components/_icons.scss` and add your new icon to the `$icons` Sass list.
+
 
