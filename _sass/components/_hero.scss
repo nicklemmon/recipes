@@ -5,6 +5,7 @@
 	font-size: 1rem;
 	height: 35em;
 	background: $primary;
+	box-shadow: inset 0px -5px 10px rgba(black, .05);
 	@include display(flex);
 	@include align-items(center);
 	@include justify-content(center);
