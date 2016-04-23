@@ -18,7 +18,7 @@
 		<section class="NavCategoryList-section is-collapsed">
 		{% for subcategories in category.subcategories | where:'category', category.category %}
 		<li class="NavCategoryList-listItem">
-			<a class="NavCategoryList-link NavCategoryList-link--subcategory" href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory }}">{{ subcategories.subcategory | capitalize }}</a>
+			<a class="NavCategoryList-link NavCategoryList-link--subcategory" href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory | remove: " " }}">{{ subcategories.subcategory | capitalize }}</a>
 		</li>
 		{% endfor %}
 		</section> <!-- /.NavCategoryList-section -->
