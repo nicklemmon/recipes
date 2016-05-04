@@ -2,7 +2,7 @@
 title: Nick and Laurie's Recipe Collection
 email: nick.lemmon@gmail.com
 description: ""
-baseurl: "recipes-2016" # the subpath of your site, e.g. /blog
+baseurl: "/recipes-2016" # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: nicklemmon
 github_username:  nicklemmon
