@@ -192,6 +192,7 @@
 .Tile--recipe {
 	padding: $spacing--lg;
 	width: 100%;
+	height: auto;
 	@include display(flex);
 	@include justify-content(space-between);
 	@include align-items(center);
