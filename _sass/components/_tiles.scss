@@ -20,7 +20,7 @@
 
 .Tile-name {
 	font-size: 1.3rem;
-	font-weight: 300;
+	font-weight: 400;
 	color: $gray--dark;
 }
 
@@ -44,7 +44,7 @@
 .Tile-title--h4 {
 	text-transform: uppercase;
 	color: $primary;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1.6em;
 	text-align: center;
 	&:after {
@@ -81,7 +81,7 @@
 
 .Tile-paragraph--error {
 	font-size: 2.3em;
-	font-weight: 300;
+	font-weight: 400;
 	margin: $spacing--md auto $spacing--lg auto;
 	text-align: center;
 }
@@ -192,6 +192,7 @@
 .Tile--recipe {
 	padding: $spacing--lg;
 	width: 100%;
+	height: auto;
 	@include display(flex);
 	@include justify-content(space-between);
 	@include align-items(center);
