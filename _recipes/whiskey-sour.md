@@ -5,7 +5,7 @@ layout: recipe
 title: 			whiskey sour
 category:		drinks
 subcategory:	alcoholic drink
-review:			4
+review:			0
 
 #=== Stuff for the Sidebar ===#
 cook-time:		5
