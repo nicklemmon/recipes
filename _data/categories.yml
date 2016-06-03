@@ -37,9 +37,9 @@ drinks:
   fullname: Drinks
   icon: martini
   subcategories:
-    - subcategory: alcoholic drinks
-    - subcategory: hot drinks
-    - subcategory: cold drinks
+    - subcategory: alcoholic drink
+    - subcategory: hot drink
+    - subcategory: cold drink
     - subcategory: smoothie
 
 desserts:
