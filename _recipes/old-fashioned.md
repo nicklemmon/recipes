@@ -10,7 +10,7 @@ review:			4
 #=== Stuff for the Sidebar ===#
 cook-time:		5
 num-served:		1
-source:			http://allrecipes.com
+source:			http://esquire.com
 
 #=== Stuff for the ingredients list ===#
 ingredients:	1 sugar cube, 3 dashes Angostura Bitters, 1 liter club soda, 2 ounces rye whiskey, 1 old-fashioned glass
