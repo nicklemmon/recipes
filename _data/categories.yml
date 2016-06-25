@@ -10,6 +10,7 @@ maindish:
     - subcategory: pork
     - subcategory: vegetarian
     - subcategory: ethnic
+    - subcategory: seafood
 
 # favorites:
 #   shortname: favorites
