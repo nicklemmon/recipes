@@ -5,7 +5,7 @@ layout: recipe
 title: 			chicken enchiladas
 category:		main dish					
 subcategory:	poultry						
-review:			0					
+review:			4				
 
 #=== Stuff for the Sidebar ===#
 cooktime:		45							
