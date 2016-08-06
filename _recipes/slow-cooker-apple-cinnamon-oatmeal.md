@@ -4,7 +4,7 @@ layout: recipe
 #=== Meta Info ===#
 title: 			slow cooker apple cinnammon oatmeal
 category:		main dish					
-subcategory:	vegetarian
+subcategory:	breakfast
 review:			5
 
 #=== Stuff for the Sidebar ===#
