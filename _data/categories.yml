@@ -9,7 +9,6 @@ maindish:
     - subcategory: poultry
     - subcategory: pork
     - subcategory: vegetarian
-    - subcategory: ethnic
     - subcategory: seafood
     - subcategory: breakfast
 
