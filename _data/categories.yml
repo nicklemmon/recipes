@@ -11,6 +11,7 @@ maindish:
     - subcategory: vegetarian
     - subcategory: ethnic
     - subcategory: seafood
+    - subcategory: breakfast
 
 # favorites:
 #   shortname: favorites
