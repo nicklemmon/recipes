@@ -13,7 +13,7 @@ numserved:		2						# number of people served by the dish
 source:			http://allrecipes.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#
-ingredients:	2 (4 ounce) fillets mahi mahi, 2 teaspoons olive oil, 1/2 cup salted butter, 1 clove garlic, minced, 1 tablespoon lemon juice, 2 drops Louisiana-style hot sauce, or to taste, 1 roma tomato, seeded and chopped (optional), 1 green onion, chopped
+ingredients:	2 (4 ounce) fillets mahi mahi, 2 teaspoons olive oil, 1/2 cup salted butter, 1 clove garlic, minced, 1 tablespoon lemon juice, 2 drops Louisiana-style hot sauce (or to taste), 1 roma tomato (seeded and chopped - optional), 1 green onion (chopped)
 ---
 
 
