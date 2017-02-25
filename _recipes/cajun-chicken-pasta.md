@@ -2,7 +2,7 @@
 layout: recipe
 
 #=== Meta Info ===#
-title: 			chicken enchiladas
+title: 			cajun chicken pasta
 category:		main dish					
 subcategory:	poultry						
 review:			4				
