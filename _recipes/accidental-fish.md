@@ -5,7 +5,7 @@ layout: recipe
 title: 			accidental fish			# name of the dish
 category:		main dish				# category for the dish
 subcategory:	seafood					# subcategory for the dish
-review:			0						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
+review:			5						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
 cooktime:		30						# cook time for the dish in minutes
