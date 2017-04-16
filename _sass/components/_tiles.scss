@@ -217,7 +217,6 @@
 //=== Recipe Steps Tile ===//
 
 .Tile--recipeSteps {
-	padding: 3em;
 	width: 100%;
 	@media screen and (min-width: $breakpoint--md) {
 		width: calc(100% * (2/3) - 3em);
@@ -225,8 +224,12 @@
 }
 
 	.Tile-steps,
-	.Tile-recipeIngredientList {
-		padding: 3em;
+	.Tile-recipeIngredientList,
+	.Tile--recipeData {
+		padding: 3em 2em;
+		@media screen and (min-width: $breakpoint--md) {
+			padding: 3em;
+		}
 	}
 
 	.Tile-recipeIngredientList {
@@ -281,7 +284,6 @@
 			}
 		}
 	}
-
 }
 
 

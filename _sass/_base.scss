@@ -16,6 +16,7 @@ body {
 
 .ContentContainer {
 	background: $gray--light;
+	min-height: calc(100vh - 10rem)
 }
 
 .SubContainer {

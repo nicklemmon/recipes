@@ -2,78 +2,21 @@
 
 
 .Footer {
+	color: #FFF;
+	text-align: center;
+	font-size: 1.5rem;
 	background: $gray;
-	padding: $spacing--md*2 $spacing--md;
-	font-size: 1rem;
+	padding: $spacing--md;
+	height: $spacing--md;
+	@media screen and (min-width: $breakpoint--md) {
+		text-align: right;
+	}
+}
+
+.Footer-link {
+	color: #FFF;
 }
 
 .Footer-subContainer {
-	width: 100%;
-	@include display(flex);
-	@include flex-direction(column);
-	@include flex-wrap(wrap);
-	@media screen and (min-width: $breakpoint--sm) {
-		@include flex-direction(row);
-	}
+	padding-bottom: 0; // overriding default SubContainer styles
 }
-
-.FooterCategoryList {
-	width: 100%;
-	text-align: center;
-	@media screen and (min-width: $breakpoint--md) {
-		width: calc(100% / 3);
-		box-sizing: border-box;
-		padding: $spacing--sm;
-	}
-}
-
-.FootCategoryList-title {
-	color: #FFFFFF;
-}
-
-	.FooterCategoryList-title--h3 {
-		font-size: 1.1em;
-		text-transform: uppercase;
-	}
-
-
-	.FooterCategoryList-link--category {
-		height: 3em;
-		width: 100%;
-		border: .1em solid #FFFFFF;
-	}
-
-	.FooterCategoryList-link {
-		@include display(flex);
-		@include align-items(center);
-		@include justify-content(center);
-		box-sizing: border-box;
-		text-decoration: none;
-		color: #FFFFFF;
-		@include transition(background $transition--lg ease, text-shadow $transition--lg ease);
-		&:hover {
-			background: fade-out($gray--dark, .8);
-			text-shadow: 0 1px 0 fade-out($gray--dark, .2);
-		}
-	}
-
-	.FooterCategoryList-link--category {
-		@include transition(background $transition--lg ease, box-shadow $transition--sm ease);
-		&:hover {
-			box-shadow: 0 2px 5px rgba($gray--dark, .4);
-			text-shadow: none;
-		}
-	}
-
-.FooterCategoryList-listItem {
-	&:first-child {
-		margin-top: $spacing--md;
-	}
-	border-bottom: 1px solid fade-out($gray--dark, .7);
-}
-	
-	.FooterCategoryList-link--subcategory {
-		width: 100%;
-		font-size: 1.3em;
-		padding: $spacing--sm*1.5;
-	}
