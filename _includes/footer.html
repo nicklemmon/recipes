@@ -1,23 +1,7 @@
 <footer class="Footer">
 	<div class="SubContainer Footer-subContainer">
 
-	{% for category_hash in site.data.categories %}
-	{% assign category = category_hash[1] %}
-
-	<ul class="FooterCategoryList">
-
-		<h3 class="FooterCategoryList-title FooterCategoryList-title--h3"><a class="FooterCategoryList-link FooterCategoryList-link--category" href="{{ site.baseurl }}/{{ category.shortname }}">{{ category.fullname }}</a></h3>
-
-		{% for subcategories in category.subcategories | where:'category', category.category %}
-		<li class="FooterCategoryList-listItem">
-			<a class="FooterCategoryList-link FooterCategoryList-link--subcategory" href="{{ site.baseurl }}/{{ category.shortname }}/{{ subcategories.subcategory | remove: " " }}">{{ subcategories.subcategory | capitalize }}</a>
-		</li>
-		{% endfor %}
-	
-	</ul> <!-- /.FooterCategoryList -->
-	
-	{% endfor %}
+	<p>All rights reserved, <a href="http://nicklemmon.com" class="Footer-link">Nick Lemmon</a> 20{{ site.time | date: '%y' }}</p>
 
 	</div>
 </footer> <!-- /.Footer -->
-
