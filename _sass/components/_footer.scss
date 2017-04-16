@@ -3,11 +3,14 @@
 
 .Footer {
 	color: #FFF;
-	text-align: right;
+	text-align: center;
 	font-size: 1.5rem;
 	background: $gray;
 	padding: $spacing--md;
 	height: $spacing--md;
+	@media screen and (min-width: $breakpoint--md) {
+		text-align: right;
+	}
 }
 
 .Footer-link {
