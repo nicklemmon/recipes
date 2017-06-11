@@ -10,7 +10,7 @@ review:			0
 #=== Stuff for the Sidebar ===#
 cooktime:		20							
 numserved:		6							
-source:			http://allrecipes.com  		
+source:			http://thekitchn.com  		
 
 #=== Stuff for the ingredients list ===#
 ingredients:	1 to 1 1/2 pounds boneless, skinless chicken thighs, 1 large onion (diced), 3 cloves garlic (minced), 1-inch piece whole ginger (peeled and grated), 2 tablespoons tomato paste, 1 to 2 tablespoons garam masala, 2 teaspoons paprika, 2 teaspoons kosher salt, 1 (28-ounce) can diced tomatoes, 3/4 cup heavy cream or coconut milk, Fresh cilantro, chopped, 2 cups cooked rice, to serve
