@@ -5,7 +5,7 @@ layout: recipe
 title: 			Slow Cooker Cashew Chicken
 category:		main dish					
 subcategory:	poultry
-review:
+review: 4
 
 #=== Stuff for the Sidebar ===#
 cooktime:		3 - 4 hours
