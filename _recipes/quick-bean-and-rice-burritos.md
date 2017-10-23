@@ -5,7 +5,7 @@ layout: recipe
 title: 			Quick Bean and Rice Burritos
 category:		main dish					
 subcategory:	vegetarian
-review:			
+review:	3
 
 #=== Stuff for the Sidebar ===#
 cooktime:		.25 hours

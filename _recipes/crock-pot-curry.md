@@ -5,7 +5,7 @@ layout: recipe
 title: 			Crock Pot Curry
 category:		main dish					
 subcategory:	vegetarian
-review:
+review: 3
 
 #=== Stuff for the Sidebar ===#
 cooktime:		25 minutes

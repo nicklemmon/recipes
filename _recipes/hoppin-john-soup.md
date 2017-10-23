@@ -5,7 +5,7 @@ layout: recipe
 title: 			Hoppin' John Soup
 category:		main dish		
 subcategory:	pork
-review:			0
+review:			3
 
 #=== Stuff for the Sidebar ===#
 cooktime:		50 Minutes

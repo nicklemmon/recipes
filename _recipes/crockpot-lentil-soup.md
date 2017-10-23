@@ -5,7 +5,7 @@ layout: recipe
 title:        Crockpot Lentil Soup    # name of the dish
 category:     main dish                # category for the dish
 subcategory:  vegetarian               # subcategory for the dish
-review:       0                       # review the recipe from a scale of 1 (bad!) to 5 (amazing!)
+review:       4                       # review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
 cooktime:     8 hours                   # cook time for the dish in minutes
