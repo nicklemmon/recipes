@@ -13,7 +13,7 @@ numserved:		4						# number of people served by the dish
 source:			http://geniuskitchen.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#
-ingredients: 1⁄4 cup parmesan cheese, grated, 2 tablespoons dried Italian seasoned breadcrumbs, 1⁄8 teaspoon paprika, 1 teaspoon dried parsley, 1⁄2 teaspoon garlic powder, 1⁄4 teaspoon fresh ground pepper, 4 (1/4 lb) boneless skinless chicken breast
+ingredients: 1⁄4 cup parmesan cheese (grated), 2 tablespoons dried Italian seasoned breadcrumbs, 1⁄8 teaspoon paprika, 1 teaspoon dried parsley, 1⁄2 teaspoon garlic powder, 1⁄4 teaspoon fresh ground pepper, 4 (1/4 lb) boneless skinless chicken breast
 ---
 
 1. Preheat oven to 400 degrees.
