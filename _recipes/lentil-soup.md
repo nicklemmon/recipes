@@ -5,7 +5,7 @@ layout: recipe
 title: 			Lentil Soup
 category:		main dish					
 subcategory:	vegetarian
-review:			
+review:			4
 
 #=== Stuff for the Sidebar ===#
 cooktime:		1 hour
@@ -13,7 +13,7 @@ numserved:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	2 tbsp olive oil, 1 onion (chopped), 2 garlic cloves (minced), 1 large carrot (chopped - about 1 1/4 cups), 2 celery ribs, chopped (about 1 1/4 cups), 2 cups / 400g dried lentils (rinsed and drained), 400g / 14 oz crushed tomato, 1.5 litres / 1.5 quarts / 6 cups vegetable or chicken stock / broth, 1/2 tsp each cumin and coriander powder, 1 1/2 tsp paprika powder, 2 dried bay leaves, 1 lemon (zest + juice), Salt and pepper
+ingredients:	2 tbsp olive oil, 1 onion (chopped), 2 garlic cloves (minced), 1 large carrot (chopped - about 1 1/4 cups), 2 celery ribs, chopped (about 1 1/4 cups), 2 cups / 400g dried lentils (rinsed and drained), 400g / 14 oz crushed tomato, 1.5 litres / 1.5 quarts / 6 cups vegetable or chicken stock / broth, 1/2 tsp each cumin and coriander powder, 1 1/2 tsp paprika powder, 2 dried bay leaves, 1/2 lemon (zest + juice), Salt and pepper
 ---
 
 1. Heat oil in a large pot over medium heat. Add garlic and onion, cook for 2 minutes.
