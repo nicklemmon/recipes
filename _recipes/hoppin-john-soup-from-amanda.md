@@ -5,7 +5,7 @@ layout: recipe
 title: 			Hoppin' John Soup from Amanda
 category:		main dish		
 subcategory: pork
-review:			0
+review:			5
 
 #=== Stuff for the Sidebar ===#
 cooktime:		30 Minutes
