@@ -2,10 +2,10 @@
 layout: recipe
 
 #=== Meta Info ===#
-title: 			Pressure Cooker Cinnamon Apple Steel Cut Oatmeal
+title: 			Pumpkin Cupcakes
 category:		main dish					
 subcategory:	breakfast
-review: 5
+review: 0
 
 #=== Stuff for the Sidebar ===#
 cooktime:		20 minutes
