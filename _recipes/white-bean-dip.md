@@ -4,7 +4,7 @@ layout: recipe
 #=== Meta Info ===#
 title: 			White Bean Dip
 category:		side dish					
-subcategory:	starches
+subcategory:	starch
 review:			5
 
 #=== Stuff for the Sidebar ===#
