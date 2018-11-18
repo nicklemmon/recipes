@@ -17,4 +17,4 @@ ingredients:	1 stick butter or margarine, 3 cups raw sweet potatoes - grated, 1 
 ---
 
 1. Melt butter in shallow 1 1/2-quart casserole.  Combine remaining ingredients and pour into greased casserole dish.
-2.Bake at 350 for one hour.
+2. Bake at 350 for one hour.
