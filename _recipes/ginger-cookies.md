@@ -4,7 +4,7 @@ layout: recipe
 #=== Meta Info ===#
 title: 			Ginger Cookies
 category:		dessert					
-subcategory:	cookies
+subcategory:	cookie
 review:			5
 
 #=== Stuff for the Sidebar ===#
