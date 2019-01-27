@@ -2,7 +2,7 @@
 layout: recipe
 
 #=== Meta Info ===#
-title: 			Aunt B's Mac and Cheese
+title: 			Baked Ziti
 category:		main dish					
 subcategory:	vegetarian
 review:			5
