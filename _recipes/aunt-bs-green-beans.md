@@ -13,7 +13,10 @@ numserved:    4                        # number of people served by the dish
 source:       Aunt B                   # where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#
-ingredients:  fatback, 2 cans of green beans, salt and pepper
+ingredients:
+  - fatback
+  - 2 cans of green beans
+  - salt and pepper
 ---
 
 1. Rinse the salt off of the fat back

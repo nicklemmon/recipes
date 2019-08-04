@@ -13,7 +13,16 @@ numserved: 1
 source: http://foodnetwork.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	3 avocados (halved, seeded, peeled), 1 lime (juiced), 1/2 teaspoon kosher salt, 1/2 teaspoon cumin, 1/2 medium onion (diced), 1/2 jalapeno (seeded and minced), 2 roma tomatoes (seeded and diced), 1 tablespoon cilantro, 1 clove garlic (minced)
+ingredients:
+  - 3 avocados (halved, seeded, peeled)
+  - 1 lime (juiced)
+  - 1/2 teaspoon kosher salt
+  - 1/2 teaspoon cumin
+  - 1/2 medium onion (diced)
+  - 1/2 jalapeno (seeded and minced)
+  - 2 roma tomatoes (seeded and diced)
+  - 1 tablespoon cilantro
+  - 1 clove garlic (minced)
 ---
 
 1. In a large bowl place the scooped avocado pulp and lime juice, toss to coat.

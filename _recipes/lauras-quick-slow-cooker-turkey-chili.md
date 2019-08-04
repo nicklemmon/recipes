@@ -13,7 +13,20 @@ numserved:		8
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1 tablespoon vegetable oil, 1 pound ground turkey, 2 (10.75 oz) cans low sodium tomato soup, 2 (15 oz) cans kidney beans (drained), 1 (15 oz) can black beans (drained), 1/2 medium onion (chopped), 2 tablespoons chili powder, 1 teaspoon red pepper flakes, 1/2 tablespoon garlic powder, 1/2 tablespoon ground cumin, 1 pinch ground black pepper, 1 pinch ground allspice, salt to taste
+ingredients:
+  - 1 tablespoon vegetable oil
+  - 1 pound ground turkey
+  - 2 (10.75 oz) cans low sodium tomato soup
+  - 2 (15 oz) cans kidney beans (drained)
+  - 1 (15 oz) can black beans (drained)
+  - 1/2 medium onion (chopped)
+  - 2 tablespoons chili powder
+  - 1 teaspoon red pepper flakes
+  - 1/2 tablespoon garlic powder
+  - 1/2 tablespoon ground cumin
+  - 1 pinch ground black pepper
+  - 1 pinch ground allspice
+  - salt to taste
 ---
 
 1. Heat the oil in a skillet over medium heat. Place turkey in the skillet and cook until evenly brown; drain

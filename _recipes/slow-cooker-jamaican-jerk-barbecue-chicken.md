@@ -13,7 +13,13 @@ numserved:		4						# number of people served by the dish
 source:			http://geniuskitchen.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#
-ingredients:	8 chicken drumsticks (about 2 pounds, skin removed), 2 teaspoons caribbean jerk seasoning, 3⁄4 cup barbecue sauce, 1 tablespoon dark rum (optional), 1⁄4 cup scallion, sliced
+ingredients:
+  - 8 chicken drumsticks (about 2 pounds - skin removed)
+  - 2 teaspoons caribbean jerk seasoning
+  - 3⁄4 cup barbecue sauce
+  - 1 tablespoon dark rum (optional)
+  - 1⁄4 cup scallion
+  - sliced
 ---
 
 1. Rub drumsticks with seasoning.

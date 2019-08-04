@@ -13,7 +13,15 @@ numserved:		8
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	8 ounces lasagna noodles, 1 pound ground beef, 1/4 cup minced onions (optional), 1 teaspoon salt, 1/2 teaspoon garlic salt, 32 oz jar of spaghetti sauce, 16 oz package of large curd cottage cheese, 1 pound mozzarella cheese
+ingredients:
+  - 8 ounces lasagna noodles
+  - 1 pound ground beef
+  - 1/4 cup minced onions (optional)
+  - 1 teaspoon salt
+  - 1/2 teaspoon garlic salt
+  - 32 oz jar of spaghetti sauce
+  - 16 oz package of large curd cottage cheese
+  - 1 pound mozzarella cheese
 ---
 
 1. Bring a large pot of lightly salted water to a boil. Cook noodles in boiling water for 8 to 10 minutes, or until al dente; drain.

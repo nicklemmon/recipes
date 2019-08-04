@@ -13,7 +13,14 @@ numserved:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	6 skinless/boneless chicken breast halves, 1/4 cup butter, 1 (.7 oz) package dry Italian-style sald dressing mix, 1/2 cup white wine, 1 (10.75 oz) can condensed golden mushroom soup, 4 ounces cream cheese with chives, 1 pound angel hair pasta
+ingredients:
+  - 6 skinless/boneless chicken breast halves
+  - 1/4 cup butter
+  - 1 (.7 oz) package dry Italian-style sald dressing mix
+  - 1/2 cup white wine
+  - 1 (10.75 oz) can condensed golden mushroom soup
+  - 4 ounces cream cheese with chives
+  - 1 pound angel hair pasta
 ---
 
 1. Preheat oven to 325 degrees

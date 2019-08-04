@@ -13,7 +13,15 @@ numserved:		4
 source:			Mom
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1.5 teaspoons dried marjoram, 1 clove minced garlic, 2 16oz cans chickpeas (rinsed), 2 14oz cans vegetable broth, 1 14.5oz can diced tomatoes with liquid, 1 cup water, 1 cup ditalini pasta, 1 5 to 6oz package of baby spinach leaves
+ingredients:
+  - 1.5 teaspoons dried marjoram
+  - 1 clove minced garlic
+  - 2 16oz cans chickpeas (rinsed)
+  - 2 14oz cans vegetable broth
+  - 1 14.5oz can diced tomatoes with liquid
+  - 1 cup water
+  - 1 cup ditalini pasta
+  - 1 5 to 6oz package of baby spinach leaves
 ---
 
 1. Heat oil, marjoram, and garlic in a large pot on medium low until fragrant (do not allow garlic to brown)

@@ -13,7 +13,17 @@ numserved:		3
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	2 tbsp extra-virgin olive oil, 1 lb extra-lean ground turkey, 1 tsp clove garlic (minced), 1/2 cup onions (diced), 1/2 cup yellow pepper (diced), 1 1/2 cup sweet potato (diced), salt and pepper, a pinch of chili pepper, 1/2 cup shredded mozzarella cheese, fresh parsley (as a garnish)
+ingredients:
+  - 2 tbsp extra-virgin olive oil
+  - 1 lb extra-lean ground turkey
+  - 1 tsp clove garlic (minced)
+  - 1/2 cup onions (diced)
+  - 1/2 cup yellow pepper (diced)
+  - 1 1/2 cup sweet potato (diced)
+  - salt and pepper
+  - a pinch of chili pepper
+  - 1/2 cup shredded mozzarella cheese
+  - fresh parsley (as a garnish)
 ---
 1. In a skillet, heave olive oil over medium high heat
 2. Add ground turkey and garlic, stirring occasionally and cook for about 10 minutes

@@ -13,7 +13,12 @@ numserved:		1
 source:			http://esquire.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1 sugar cube, 3 dashes Angostura Bitters, 1 liter club soda, 2 ounces rye whiskey, 1 old-fashioned glass
+ingredients:
+  - 1 sugar cube
+  - 3 dashes Angostura Bitters
+  - 1 liter club soda
+  - 2 ounces rye whiskey
+  - 1 old-fashioned glass
 ---
 
 1. Place the sugar cube (or 1/2 teaspoon loose sugar) in an Old-Fashioned glass

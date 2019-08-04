@@ -13,7 +13,17 @@ numserved:		1
 source:			http://allrecipes.com  		
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1 tablespoon butter, 1/2 cup chopped green onions, 1/2 teaspoon garlic powder, 1 (4 ounce) can diced green chiles, 1 (10.75 ounce) can condensed cream of mushroom soup, 1/2 cup sour cream, 1 1/2 cups cubed cooked chicken breast meat, 1 cup shredded Cheddar cheese divided, 6 (12 inch) flour tortillas, 1/4 cup milk	
+ingredients:
+  - 1 tablespoon butter
+  - 1/2 cup chopped green onions
+  - 1/2 teaspoon garlic powder
+  - 1 (4 ounce) can diced green chiles
+  - 1 (10.75 ounce) can condensed cream of mushroom soup
+  - 1/2 cup sour cream
+  - 1 1/2 cups cubed cooked chicken breast meat
+  - 1 cup shredded Cheddar cheese divided
+  - 6 (12 inch) flour tortillas
+  - 1/4 cup milk	
 ---
 
 1. Preheat oven to 350 degrees F (175 degrees C). Lightly grease a large baking dish.

@@ -13,7 +13,16 @@ numserved:		6
 source:			http://pressurecookingtoday.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1 tablespoon butter, 1 cup steel cut oats, 3 1/2 cups water, 1 large apple, peeled, cored and diced, 2 tablespoons light brown sugar, 1 1/2 teaspoons ground cinnamon, 1/4 teaspoon salt
+ingredients:
+  - 1 tablespoon butter
+  - 1 cup steel cut oats
+  - 3 1/2 cups water
+  - 1 large apple
+  - peeled
+  - cored and diced
+  - 2 tablespoons light brown sugar
+  - 1 1/2 teaspoons ground cinnamon
+  - 1/4 teaspoon salt
 ---
 
 1. Add butter to pressure cooking pot, select Sauté. When butter is melted add the oats and toast, stirring constantly, until they start to darken and smell nutty, about 3 minutes.

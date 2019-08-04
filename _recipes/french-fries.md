@@ -13,12 +13,10 @@ num-served:		25						# number of people served by the dish
 source:			http://allrecipes.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#
-ingredients:	potatoes, ketchup		# what are the ingredients?
+ingredients:
+  - potatoes
+  - ketchup		# what are the ingredients?
 ---
-
-
-
-{% comment %}Write the steps to complete the dish in Markdown below as a numbered list{% endcomment %}
 
 1. Cut up the 'tatoes
 2. Fry 'em up

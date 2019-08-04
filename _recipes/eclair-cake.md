@@ -13,7 +13,12 @@ numserved:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	2 (3.5 ounce) packages instant vanilla pudding mix, 1 (8 ounce) container frozen whipped topping, 3 cups milk, 1 (16 ounce) package graham cracker squares, 1 (16 ounce) package prepared chocolate
+ingredients:
+  - 2 (3.5 ounce) packages instant vanilla pudding mix
+  - 1 (8 ounce) container frozen whipped topping
+  - 3 cups milk
+  - 1 (16 ounce) package graham cracker squares
+  - 1 (16 ounce) package prepared chocolate
 ---
 
 1. In a medium bowl, thoroughly blend the pudding mix, whipped topping, and milk.

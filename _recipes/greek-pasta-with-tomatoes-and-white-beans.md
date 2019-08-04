@@ -13,7 +13,12 @@ numserved:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	2 cans (14.5 ounces) italian-style diced tomatoes, 10 ounces fresh spinach (washed and chopped), 1 (19 oz) can cannellini beans (drained and rinsed), 8 ounces penne pasta, 1/2 cup crumbled feta cheese
+ingredients:
+  - 2 cans (14.5 ounces) italian-style diced tomatoes
+  - 10 ounces fresh spinach (washed and chopped)
+  - 1 (19 oz) can cannellini beans (drained and rinsed)
+  - 8 ounces penne pasta
+  - 1/2 cup crumbled feta cheese
 ---
 
 1. Cook the pasta in a large pot of boiling salt water until al dente

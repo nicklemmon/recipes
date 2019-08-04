@@ -13,7 +13,16 @@ numserved:		4
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1 tablespoon brown sugar, 2 tablespoons honey, 1/4 cup soy sauce, 2 teaspoons chopped fresh ginger, 2 teaspoons chopped garlic, 2 tablespoons hot sauce, salt and pepper to taste, 4 boneless chicken breast halves, 1 tablespoon vegetable oil
+ingredients:
+  - 1 tablespoon brown sugar
+  - 2 tablespoons honey
+  - 1/4 cup soy sauce
+  - 2 teaspoons chopped fresh ginger
+  - 2 teaspoons chopped garlic
+  - 2 tablespoons hot sauce
+  - salt and pepper to taste
+  - 4 boneless chicken breast halves
+  - 1 tablespoon vegetable oil
 ---
 
 1. Mix together brown sugar, honey, soy sauce, ginger, garlic and hot sauce in a small bowl.

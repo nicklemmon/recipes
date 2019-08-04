@@ -13,11 +13,10 @@ layout: default		# parent layout
 				<h4 class="Tile-title Tile-title--h4">Ingredients</h4>
 
 				<ul class="Tile-unorderedList Tile-unorderedList--ingredientList">
-				{% assign words = page.ingredients | split:"," %} {%comment%} the ingredients listed in a recipe are split by ',', then loop through to make a list item for every ingredient {%endcomment%}
-				{% for word in words %}
-					<li class="Tile-listItem Tile-listItem--ingredient">{{ word }}</li>
-				{% endfor %}
-				</ul>
+					{% for ingredient in page.ingredients %}
+						<li class="Tile-listItem Tile-listItem--ingredient">{{ ingredient }}</li>
+					{% endfor %}
+					</ul>
 
 			</article> <!-- /.IngredientList -->
 

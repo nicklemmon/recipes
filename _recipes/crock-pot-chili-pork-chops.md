@@ -13,7 +13,16 @@ numserved:		3						# number of people served by the dish
 source:			http://geniuskitchen.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1⁄2 cup chopped onion, 2 tablespoons olive oil, 2 -3 garlic cloves, 2 tablespoons Worcestershire sauce, 1⁄2 cup water, 3⁄4 cup ketchup, 1 teaspoon chili powder, 5 -6 pork chops (bone in preferred), salt and pepper
+ingredients:
+  - 1⁄2 cup chopped onion
+  - 2 tablespoons olive oil
+  - 2 -3 garlic cloves
+  - 2 tablespoons Worcestershire sauce
+  - 1⁄2 cup water
+  - 3⁄4 cup ketchup
+  - 1 teaspoon chili powder
+  - 5 -6 pork chops (bone in preferred)
+  - salt and pepper
 ---
 
 1. Cook onions in oil until lightly brown.

@@ -13,7 +13,13 @@ numserved:		6
 source:			http://food.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	4 cups water, 2 cups long brown rice, 4 chicken boullion cubes, 3 dashes Mrs Dash, 3 tablespoons butter, pepper
+ingredients:
+  - 4 cups water
+  - 2 cups long brown rice
+  - 4 chicken boullion cubes
+  - 3 dashes Mrs Dash
+  - 3 tablespoons butter
+  - pepper
 ---
 
 1. Spray pressure cooker with cooking oil.

@@ -13,7 +13,20 @@ numserved:		8
 source:			http://weightwatchers.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1.5 cups dry lentils, 1 tablespoon olive oil, 1 large onion, 1 large red pepper (diced), 2 tablespoons minced garlic, 3 tablespoons chili powder, 2 teaspoons dried oregano, 1.5 teaspoons ground cumin, 1/2 teaspoon cayenne pepper, 1 teaspoon kosher salt, 29 ounces of canned tomatoes, 31 ounces of canned black beans, 1/2 cup of cilantro (chopped)
+ingredients:
+  - 1.5 cups dry lentils
+  - 1 tablespoon olive oil
+  - 1 large onion
+  - 1 large red pepper (diced)
+  - 2 tablespoons minced garlic
+  - 3 tablespoons chili powder
+  - 2 teaspoons dried oregano
+  - 1.5 teaspoons ground cumin
+  - 1/2 teaspoon cayenne pepper
+  - 1 teaspoon kosher salt
+  - 29 ounces of canned tomatoes
+  - 31 ounces of canned black beans
+  - 1/2 cup of cilantro (chopped)
 ---
 
 1. Place lentils in a large sauce pan and cover with water by several inches; bring to a boil. Reduce heat to low and simmer until lentils are tender but retain a little bite, about 10 to 15 minutes; drain well and set aside.

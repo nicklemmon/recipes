@@ -13,7 +13,21 @@ numserved:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	3 eggs, 3/4 cup buttermilk, 3/4 cup vegetable oil, 1 1/2 cups white sugar, 2 teaspoons vanilla extract, 2 teaspoons ground cinnamon, 1/4 teaspoon salt, 2 cups all-purpose flour, 2 teaspoons baking soda, 2 cups shredded carrots, 1 cup flaked coconut, 1 cup chopped walnuts, 1 (8 ounce) can crushed pineapple with juice, 1 cup raisins
+ingredients:
+  - 3 eggs
+  - 3/4 cup buttermilk
+  - 3/4 cup vegetable oil
+  - 1 1/2 cups white sugar
+  - 2 teaspoons vanilla extract
+  - 2 teaspoons ground cinnamon
+  - 1/4 teaspoon salt
+  - 2 cups all-purpose flour
+  - 2 teaspoons baking soda
+  - 2 cups shredded carrots
+  - 1 cup flaked coconut
+  - 1 cup chopped walnuts
+  - 1 (8 ounce) can crushed pineapple with juice
+  - 1 cup raisins
 ---
 
 1. Preheat oven to 350 degrees F (175 degrees C). Grease and flour an 8x12 inch pan.

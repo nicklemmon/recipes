@@ -13,7 +13,10 @@ numserved:		1
 source:			http://nestle-family.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	2 teaspoon Nescafe Classic, 1 teaspoon sugar, ice cubes
+ingredients:
+  - 2 teaspoon Nescafe Classic
+  - 1 teaspoon sugar
+  - ice cubes
 ---
 
 1. Pour 10-15ml of water in the shaker (preferably not chilled, but chilled will still do).

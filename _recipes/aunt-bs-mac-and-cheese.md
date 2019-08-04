@@ -13,7 +13,15 @@ numserved:		8
 source:			Aunt B
 
 #=== Stuff for the ingredients list ===#
-ingredients:	1 pound of pasta, 1 can of Carnation evaporated milk, 4-5 eggs, 16 oz cheddar cheese, 16 oz colby jack, 16 oz mozzarella, 8 oz parmesan, pepper
+ingredients:
+  - 1 pound of pasta
+  - 1 can of Carnation evaporated milk
+  - 4-5 eggs
+  - 16 oz cheddar cheese
+  - 16 oz colby jack
+  - 16 oz mozzarella
+  - 8 oz parmesan
+  - pepper
 ---
 
 1. Cook the pasta in salted water until al dente, drain and rinse under cold water

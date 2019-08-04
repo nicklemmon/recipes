@@ -13,7 +13,17 @@ numserved:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	3/4 pound pasta (we use penne), 1 tablespoon olive oil, 1 pound spicy Italian sausage, 1 onion (chopped), 4 cloves garlic (minced), 1 (14.5 oz) can chicken broth, 1 teaspoon dried basil, 1 (14.5 oz) can diced tomatoes, 1 (10 oz) package frozen chopped spinach, 1/2 cup grated parmesan cheese
+ingredients:
+  - 3/4 pound pasta (we use penne)
+  - 1 tablespoon olive oil
+  - 1 pound spicy Italian sausage
+  - 1 onion (chopped)
+  - 4 cloves garlic (minced)
+  - 1 (14.5 oz) can chicken broth
+  - 1 teaspoon dried basil
+  - 1 (14.5 oz) can diced tomatoes
+  - 1 (10 oz) package frozen chopped spinach
+  - 1/2 cup grated parmesan cheese
 ---
 
 1. Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain and reserve

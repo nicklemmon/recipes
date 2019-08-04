@@ -13,7 +13,19 @@ numserved:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#
-ingredients:	15 oz can tomato sauce, 1/4 cup water, 1 envelope taco seasoning mix, 1 1/2 tablespoons chili powder, 1 tablespoon vegetable oil, 1 pound chicken breast tenderloins, 15 oz can black beans (drained), 1/4 cup cream cheese, 1 cup shredded Mexican-style cheese blend, 7.5 oz package corn bread mix, 1 egg, 1/3 cup milk
+ingredients:
+  - 15 oz can tomato sauce
+  - 1/4 cup water
+  - 1 envelope taco seasoning mix
+  - 1 1/2 tablespoons chili powder
+  - 1 tablespoon vegetable oil
+  - 1 pound chicken breast tenderloins
+  - 15 oz can black beans (drained)
+  - 1/4 cup cream cheese
+  - 1 cup shredded Mexican-style cheese blend
+  - 7.5 oz package corn bread mix
+  - 1 egg
+  - 1/3 cup milk
 ---
 
 1. Preheat the oven to 375 degrees F (190 degrees C). Grease a 9x9-inch baking dish.
