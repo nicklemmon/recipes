@@ -8,8 +8,8 @@ subcategory:	poultry
 review:			4				
 
 #=== Stuff for the Sidebar ===#
-cooktime:		40						
-numserved:		4					
+cookTime:		40						
+numServed:		4					
 source:			http://allrecipes.com  		
 
 #=== Stuff for the ingredients list ===#

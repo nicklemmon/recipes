@@ -8,8 +8,8 @@ subcategory:	cake
 review:			0
 
 #=== Stuff for the Sidebar ===#
-cooktime:		60
-numserved:		6
+cookTime:		60
+numServed:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

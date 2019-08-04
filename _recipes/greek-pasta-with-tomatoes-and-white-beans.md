@@ -8,8 +8,8 @@ subcategory:	vegetarian
 review:			5
 
 #=== Stuff for the Sidebar ===#
-cooktime:		40 minutes
-numserved:		6
+cookTime:		40 minutes
+numServed:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

@@ -8,8 +8,8 @@ subcategory:	beef
 review:			5
 
 #=== Stuff for the Sidebar ===#
-cooktime:		1 hour
-numserved:		4
+cookTime:		1 hour
+numServed:		4
 source:			cookiesandcups.com
 
 #=== Stuff for the ingredients list ===#

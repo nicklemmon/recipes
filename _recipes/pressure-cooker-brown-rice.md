@@ -8,8 +8,8 @@ subcategory:	starch
 review:			0
 
 #=== Stuff for the Sidebar ===#
-cooktime:		25
-numserved:		6
+cookTime:		25
+numServed:		6
 source:			http://food.com
 
 #=== Stuff for the ingredients list ===#

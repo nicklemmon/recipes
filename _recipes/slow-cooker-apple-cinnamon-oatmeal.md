@@ -8,8 +8,8 @@ subcategory:	breakfast
 review:			5
 
 #=== Stuff for the Sidebar ===#
-cooktime:		20
-numserved:		8
+cookTime:		20
+numServed:		8
 source:			http://theyummylife.com
 
 #=== Stuff for the ingredients list ===#

@@ -8,8 +8,8 @@ subcategory:	seafood					# subcategory for the dish
 review:			5						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
-cooktime:		30						# cook time for the dish in minutes
-numserved:		2						# number of people served by the dish
+cookTime:		30						# cook time for the dish in minutes
+numServed:		2						# number of people served by the dish
 source:			http://allrecipes.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#

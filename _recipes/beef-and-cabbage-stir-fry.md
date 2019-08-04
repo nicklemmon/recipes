@@ -8,8 +8,8 @@ subcategory:	beef
 review:			4
 
 #=== Stuff for the Sidebar ===#
-cooktime:		30 minutes
-numserved:		5
+cookTime:		30 minutes
+numServed:		5
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

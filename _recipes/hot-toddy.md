@@ -8,8 +8,8 @@ subcategory:	hot drink
 review:			0
 
 #=== Stuff for the Sidebar ===#
-cooktime:		5
-numserved:		1
+cookTime:		5
+numServed:		1
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

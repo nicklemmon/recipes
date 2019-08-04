@@ -8,8 +8,8 @@ subcategory:	chocolate
 review:			0
 
 #=== Stuff for the Sidebar ===#
-cooktime:		20
-numserved:		4
+cookTime:		20
+numServed:		4
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

@@ -8,8 +8,8 @@ subcategory:  vegetables               # subcategory for the dish
 review:       4                        # review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
-cooktime:     1 hour                   # cook time for the dish in minutes
-numserved:    4                        # number of people served by the dish
+cookTime:     1 hour                   # cook time for the dish in minutes
+numServed:    4                        # number of people served by the dish
 source:       Aunt B                   # where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#

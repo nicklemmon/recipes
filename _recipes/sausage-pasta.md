@@ -8,8 +8,8 @@ subcategory:	pork
 review:			5
 
 #=== Stuff for the Sidebar ===#
-cooktime:		45 minutes
-numserved:		6
+cookTime:		45 minutes
+numServed:		6
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

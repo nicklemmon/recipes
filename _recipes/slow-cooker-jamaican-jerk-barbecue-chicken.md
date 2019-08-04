@@ -8,8 +8,8 @@ subcategory:	poultry					# subcategory for the dish
 review:			4					# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
 
 #=== Stuff for the Sidebar ===#
-cooktime:		20						# cook time for the dish in minutes
-numserved:		4						# number of people served by the dish
+cookTime:		20						# cook time for the dish in minutes
+numServed:		4						# number of people served by the dish
 source:			http://geniuskitchen.com  	# where did you find the recipe?
 
 #=== Stuff for the ingredients list ===#

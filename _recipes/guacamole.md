@@ -8,8 +8,8 @@ subcategory: vegetables
 review: 0
 
 #=== Stuff for the Sidebar ===#
-cooktime: 20
-numserved: 1
+cookTime: 20
+numServed: 1
 source: http://foodnetwork.com
 
 #=== Stuff for the ingredients list ===#

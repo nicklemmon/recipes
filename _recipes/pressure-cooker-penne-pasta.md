@@ -8,8 +8,8 @@ subcategory:	vegetarian
 review: 4
 
 #=== Stuff for the Sidebar ===#
-cooktime:		25 minutes
-numserved:		4
+cookTime:		25 minutes
+numServed:		4
 source:			http://pressurecookingrecipes.com
 
 #=== Stuff for the ingredients list ===#

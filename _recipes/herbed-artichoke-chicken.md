@@ -8,8 +8,8 @@ subcategory:	poultry
 review:			5
 
 #=== Stuff for the Sidebar ===#
-cooktime:		45 minutes
-numserved:		8
+cookTime:		45 minutes
+numServed:		8
 source:			http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

@@ -8,8 +8,8 @@ subcategory:	vegetarian
 review:			4
 
 #=== Stuff for the Sidebar ===#
-cooktime:		15
-numserved:		4
+cookTime:		15
+numServed:		4
 source:			Mom
 
 #=== Stuff for the ingredients list ===#

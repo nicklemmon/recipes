@@ -8,8 +8,8 @@ subcategory:	vegetarian
 review:			4
 
 #=== Stuff for the Sidebar ===#
-cooktime:		60 minutes
-numserved:		8
+cookTime:		60 minutes
+numServed:		8
 source:			http://weightwatchers.com
 
 #=== Stuff for the ingredients list ===#

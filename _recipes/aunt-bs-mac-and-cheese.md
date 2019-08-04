@@ -8,8 +8,8 @@ subcategory:	starch
 review:			5
 
 #=== Stuff for the Sidebar ===#
-cooktime:		1.5 hours
-numserved:		8
+cookTime:		1.5 hours
+numServed:		8
 source:			Aunt B
 
 #=== Stuff for the ingredients list ===#

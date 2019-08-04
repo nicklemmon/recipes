@@ -8,8 +8,8 @@ subcategory:  breakfast
 review:     4
 
 #=== Stuff for the Sidebar ===#
-cooktime:   15
-numserved:    6
+cookTime:   15
+numServed:    6
 source:     http://allrecipes.com
 
 #=== Stuff for the ingredients list ===#

@@ -8,8 +8,8 @@ subcategory:	breakfast
 review: 5
 
 #=== Stuff for the Sidebar ===#
-cooktime:		20 minutes
-numserved:		6
+cookTime:		20 minutes
+numServed:		6
 source:			http://pressurecookingtoday.com
 
 #=== Stuff for the ingredients list ===#
