@@ -1,19 +1,25 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			florentine casserole
-category:		main dish					
-subcategory:	poultry
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		90
-numserved:	6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	4 boneless chicken breast halves, 1/4 cup butter, 3 teaspoons minced garlic, 1 tablespoon lemon juice, 1 (10.75 ounce) can condensed cream of mushroom soup, 1 tablespoon Italian seasoning, 1/2 cup half-and-half, 1/2 cup grated parmesan cheese, 2 (13.5 ounce) cans spinach (drained), 4 ounces sliced mushrooms, 2/3 cup bacon bits, 2 cups shredded mozzarella cheese
+title: florentine casserole
+category:	main dish					
+subcategory: poultry
+review: 5
+cookTime:	90
+numServed: 6
+source:	http://allrecipes.com
+ingredients:
+  - 4 boneless chicken breast halves
+  - 1/4 cup butter
+  - 3 teaspoons minced garlic
+  - 1 tablespoon lemon juice
+  - 1 (10.75 ounce) can condensed cream of mushroom soup
+  - 1 tablespoon Italian seasoning
+  - 1/2 cup half-and-half
+  - 1/2 cup grated parmesan cheese
+  - 2 (13.5 ounce) cans spinach (drained)
+  - 4 ounces sliced mushrooms
+  - 2/3 cup bacon bits
+  - 2 cups shredded mozzarella cheese
 ---
 
 1. Preheat oven to 350 degrees F (175 degrees C). Place the chicken breast halves on a baking sheet; bake 20 to 30 minutes, until no longer pink and juices run clear. Remove from heat, and set aside.

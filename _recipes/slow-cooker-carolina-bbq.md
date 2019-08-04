@@ -1,19 +1,21 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			slow cooker carolina barbecue
-category:		main dish					
-subcategory:	pork
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		15
-numserved:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 (5 pound) bone-in pork shoulder roast, 1 tablespoon salt, ground black pepper, 1 1/2 cups apple cider vinegar, 2 tablespoons brown sugar, 1 1/2 tablespoons hot pepper sauce, 2 teaspoons cayenne pepper, 2 teaspoons crushed red pepper flakes
+title:  slow cooker carolina barbecue
+category:	main dish					
+subcategory: pork
+review:	5
+cookTime: 15
+numServed: 4
+source:	http://allrecipes.com
+ingredients:
+  - 1 (5 pound) bone-in pork shoulder roast
+  - 1 tablespoon salt
+  - ground black pepper
+  - 1 1/2 cups apple cider vinegar
+  - 2 tablespoons brown sugar
+  - 1 1/2 tablespoons hot pepper sauce
+  - 2 teaspoons cayenne pepper
+  - 2 teaspoons crushed red pepper flakes
 ---
 
 1. Place the pork shoulder into a slow cooker and season with salt and pepper. Pour the vinegar around the pork. Cover, and cook on Low for 12 hours. Pork should easily pull apart into strands.

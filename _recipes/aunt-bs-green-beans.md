@@ -1,19 +1,16 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title:        Aunt B's Green Beans     # name of the dish
-category:     side dish                # category for the dish
-subcategory:  vegetables               # subcategory for the dish
-review:       4                        # review the recipe from a scale of 1 (bad!) to 5 (amazing!)
-
-#=== Stuff for the Sidebar ===#
-cooktime:     1 hour                   # cook time for the dish in minutes
-numserved:    4                        # number of people served by the dish
-source:       Aunt B                   # where did you find the recipe?
-
-#=== Stuff for the ingredients list ===#
-ingredients:  fatback, 2 cans of green beans, salt and pepper
+title: Aunt B's Green Beans
+category: side dish
+subcategory: vegetables
+review: 4
+cookTime: 1 hour
+numServed: 4
+source: Aunt B
+ingredients:
+  - fatback
+  - 2 cans of green beans
+  - salt and pepper
 ---
 
 1. Rinse the salt off of the fat back

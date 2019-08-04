@@ -1,19 +1,22 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Pressure Cooker Cinnamon Apple Steel Cut Oatmeal
-category:		main dish					
-subcategory:	breakfast
+title: Pressure Cooker Cinnamon Apple Steel Cut Oatmeal
+category:	main dish					
+subcategory: breakfast
 review: 5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		20 minutes
-numserved:		6
-source:			http://pressurecookingtoday.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 tablespoon butter, 1 cup steel cut oats, 3 1/2 cups water, 1 large apple, peeled, cored and diced, 2 tablespoons light brown sugar, 1 1/2 teaspoons ground cinnamon, 1/4 teaspoon salt
+cookTime:	20 minutes
+numServed: 6
+source:	http://pressurecookingtoday.com
+ingredients:
+  - 1 tablespoon butter
+  - 1 cup steel cut oats
+  - 3 1/2 cups water
+  - 1 large apple
+  - peeled
+  - cored and diced
+  - 2 tablespoons light brown sugar
+  - 1 1/2 teaspoons ground cinnamon
+  - 1/4 teaspoon salt
 ---
 
 1. Add butter to pressure cooking pot, select Sauté. When butter is melted add the oats and toast, stirring constantly, until they start to darken and smell nutty, about 3 minutes.

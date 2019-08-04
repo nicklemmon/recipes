@@ -1,19 +1,34 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Pressure Cooker Penne Pasta
-category:		main dish					
-subcategory:	vegetarian
+title: Pressure Cooker Penne Pasta
+category:	main dish					
+subcategory: vegetarian
 review: 4
-
-#=== Stuff for the Sidebar ===#
-cooktime:		25 minutes
-numserved:		4
-source:			http://pressurecookingrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients: 450 grams penne pasta, 1 small onion, sliced, 1 small shallot, diced (optional), 3 cloves garlic, minced, 12 white mushrooms, sliced, 1 zucchini squash, thickly sliced, A dash of sherry wine, A pinch of dried oregano, A pinch of dried basil, Kosher salt and black pepper to taste, Olive oil, 1 cup unsalted homemade chicken stock or vegetable stock + 2 cups water, 156 ml (5.5 fl oz can) tomato paste, 2 tablespoons light soy sauce (not low sodium soy sauce), 1 tablespoon Worcestershire sauce (omit if vegetarian/vegan), 1 tablespoon fish sauce (omit if vegetarian/vegan)
+cookTime:	25 minutes
+numServed: 4
+source:	http://pressurecookingrecipes.com
+ingredients:
+  - 450 grams penne pasta
+  - 1 small onion
+  - sliced
+  - 1 small shallot
+  - diced (optional)
+  - 3 cloves garlic
+  - minced
+  - 12 white mushrooms
+  - sliced
+  - 1 zucchini squash
+  - thickly sliced
+  - A dash of sherry wine
+  - A pinch of dried oregano
+  - A pinch of dried basil
+  - Kosher salt and black pepper to taste
+  - Olive oil
+  - 1 cup unsalted homemade chicken stock or vegetable stock + 2 cups water
+  - 156 ml (5.5 fl oz can) tomato paste
+  - 2 tablespoons light soy sauce (not low sodium soy sauce)
+  - 1 tablespoon Worcestershire sauce (omit if vegetarian/vegan)
+  - 1 tablespoon fish sauce (omit if vegetarian/vegan)
 ---
 
 1. If you prefer crunchy zucchini squash, sauté sliced zucchini squash with 1 tablespoon of olive oil and set aside.

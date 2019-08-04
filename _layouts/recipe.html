@@ -13,11 +13,10 @@ layout: default		# parent layout
 				<h4 class="Tile-title Tile-title--h4">Ingredients</h4>
 
 				<ul class="Tile-unorderedList Tile-unorderedList--ingredientList">
-				{% assign words = page.ingredients | split:"," %} {%comment%} the ingredients listed in a recipe are split by ',', then loop through to make a list item for every ingredient {%endcomment%}
-				{% for word in words %}
-					<li class="Tile-listItem Tile-listItem--ingredient">{{ word }}</li>
-				{% endfor %}
-				</ul>
+					{% for ingredient in page.ingredients %}
+						<li class="Tile-listItem Tile-listItem--ingredient">{{ ingredient }}</li>
+					{% endfor %}
+					</ul>
 
 			</article> <!-- /.IngredientList -->
 
@@ -32,11 +31,11 @@ layout: default		# parent layout
 		<aside class="Tile Tile--recipeData">
 			<div class="Tile-dataSection">
 				<h5 class="Tile-title Tile-title--h5">Estimated cooking time</h5>
-				<p class="Tile-paragraph">{{ page.cooktime }}</p>
+				<p class="Tile-paragraph">{{ page.cookTime }}</p>
 			</div>
 			<div class="Tile-dataSection">
 				<h5 class="Tile-title Tile-title--h5">Number served</h5>
-				<p class="Tile-paragraph">{{ page.numserved }}</p>
+				<p class="Tile-paragraph">{{ page.numServed }}</p>
 			</div>
 			<div class="Tile-dataSection">
 				<h5 class="Tile-title Tile-title--h5">Recipe source</h5>

@@ -1,19 +1,26 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Slow Cooker Cashew Chicken
-category:		main dish					
-subcategory:	poultry
+title: Slow Cooker Cashew Chicken
+category:	main dish					
+subcategory: poultry
 review: 4
-
-#=== Stuff for the Sidebar ===#
-cooktime:		3 - 4 hours
-numserved:		6
-source:			http://therecipecritic.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	2 lbs boneless skinless chicken breasts (About 4 pieces), 3 Tablespoons Cornstach, 1/2 tsp black pepper, 1 Tbsp canola oil, 1/2 cup low sodium soy sauce, 4 Tbsp rice wine vinegar, 4 Tablespoons ketchup, 2 Tablespoons sweet chili sauce, 2 Tbsp brown sugar, 2 garlic cloves (minced), 1 tsp grated fresh ginger, 1/4 tsp red pepper flakes, 1 cup cashews
+cookTime:	3 - 4 hours
+numServed: 6
+source:	http://therecipecritic.com
+ingredients:
+  - 2 lbs boneless skinless chicken breasts (About 4 pieces)
+  - 3 Tablespoons Cornstach
+  - 1/2 tsp black pepper
+  - 1 Tbsp canola oil
+  - 1/2 cup low sodium soy sauce
+  - 4 Tbsp rice wine vinegar
+  - 4 Tablespoons ketchup
+  - 2 Tablespoons sweet chili sauce
+  - 2 Tbsp brown sugar
+  - 2 garlic cloves (minced)
+  - 1 tsp grated fresh ginger
+  - 1/4 tsp red pepper flakes
+  - 1 cup cashews
 ---
 
 1. Combine cornstarch and pepper in resealable food storage bag. Add chicken. Shake to coat with cornstarch mixture.

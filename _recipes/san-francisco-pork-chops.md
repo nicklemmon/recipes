@@ -1,19 +1,23 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			San Francisco Pork Chops
-category:		main dish					
-subcategory:	pork
-review:			4
-
-#=== Stuff for the Sidebar ===#
-cooktime:		45 minutes
-numserved:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 tablespoon vegetable oil, 4 (2/4 inch-thick) boneless pork chops, 1 clove garlic (minced), 1/4 cup beef broth, 1/4 cup soy sauce, 2 tablespoons brown sugar, 2 teaspoons vegetable oil, 1/4 teaspoon red pepper falkes, 2 teaspoons cornstarch, 2 tablespoons water
+title: San Francisco Pork Chops
+category:	main dish					
+subcategory: pork
+review:	4
+cookTime:	45 minutes
+numServed: 4
+source:	http://allrecipes.com
+ingredients:
+  - 1 tablespoon vegetable oil
+  - 4 (2/4 inch-thick) boneless pork chops
+  - 1 clove garlic (minced)
+  - 1/4 cup beef broth
+  - 1/4 cup soy sauce
+  - 2 tablespoons brown sugar
+  - 2 teaspoons vegetable oil
+  - 1/4 teaspoon red pepper falkes
+  - 2 teaspoons cornstarch
+  - 2 tablespoons water
 ---
 
 1. Heat 1 tablespoon vegetable oil in a skillet over medium heat. Brown chops in hot oil, about 5 minutes per side; remove prok to a plate, reserving oil in skillet.

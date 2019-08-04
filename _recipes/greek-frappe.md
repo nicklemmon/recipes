@@ -1,19 +1,16 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			greek frappe
-category:		drinks
-subcategory:	cold drink
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cooktime:		5
-numserved:		1
-source:			http://nestle-family.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	2 teaspoon Nescafe Classic, 1 teaspoon sugar, ice cubes
+title: greek frappe
+category:	drinks
+subcategory: cold drink
+review: 0
+cookTime:	5
+numServed: 1
+source:	http://nestle-family.com
+ingredients:
+  - 2 teaspoon Nescafe Classic
+  - 1 teaspoon sugar
+  - ice cubes
 ---
 
 1. Pour 10-15ml of water in the shaker (preferably not chilled, but chilled will still do).

@@ -1,19 +1,17 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			manhattan
-category:		drinks
-subcategory:	alcoholic drink
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cooktime:		5
-numserved:		1
-source:			http://esquire.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	2 ounces rye whiskey, 1 ounce italian vermouth, 2 dashes Angostura Bittters, 1 cocktail glass
+title: manhattan
+category:	drinks
+subcategory: alcoholic drink
+review:	0
+cookTime:	5
+numServed: 1
+source:	http://esquire.com
+ingredients:
+  - 2 ounces rye whiskey
+  - 1 ounce italian vermouth
+  - 2 dashes Angostura Bittters
+  - 1 cocktail glass
 ---
 
 1. Stir the rye, vermouth and bitters well with cracked ice. (Some prefer to shake their Manhattans. There's nothing wrong with that, really, at least no more than putting ketchup on a hot-dog is wrong or mayonnaise on a corned beef sandwich. If you like your Manhattan cloudy and topped with an algae-like foam, shake away. It won't taste any worse, anyway, although it'll feel thinner on the tongue.)
