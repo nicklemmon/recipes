@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Black Pepper Beef and Cabbage Stir-Fry
-category:		main dish					
-subcategory:	beef
-review:			4
-
-#=== Stuff for the Sidebar ===#
-cookTime:		30 minutes
-numServed:		5
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Black Pepper Beef and Cabbage Stir-Fry
+category:	main dish					
+subcategory: beef
+review:	4
+cookTime:	30 minutes
+numServed: 5
+source:	http://allrecipes.com
 ingredients:
   - 2 tablespoons vegetable oil
   - 4 cloves chopped garlic

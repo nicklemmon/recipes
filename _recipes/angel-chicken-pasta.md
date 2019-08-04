@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Angel Chicken Pasta
-category:		main dish					
-subcategory:	poultry
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		1.5 hours
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Angel Chicken Pasta
+category: main dish					
+subcategory: poultry
+review:	5
+cookTime:	1.5 hours
+numServed: 6
+source:	http://allrecipes.com
 ingredients:
   - 6 skinless/boneless chicken breast halves
   - 1/4 cup butter

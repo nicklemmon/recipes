@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
 title: guacamole
 category:	side dish
 subcategory: vegetables
 review: 0
-
-#=== Stuff for the Sidebar ===#
 cookTime: 20
 numServed: 1
 source: http://foodnetwork.com
-
-#=== Stuff for the ingredients list ===#
 ingredients:
   - 3 avocados (halved, seeded, peeled)
   - 1 lime (juiced)

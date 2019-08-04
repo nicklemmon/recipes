@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Greek Pasta with Tomatoes and White Beans
-category:		main dish					
-subcategory:	vegetarian
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		40 minutes
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Greek Pasta with Tomatoes and White Beans
+category:	main dish					
+subcategory: vegetarian
+review:	5
+cookTime:	40 minutes
+numServed: 6
+source:	http://allrecipes.com
 ingredients:
   - 2 cans (14.5 ounces) italian-style diced tomatoes
   - 10 ounces fresh spinach (washed and chopped)

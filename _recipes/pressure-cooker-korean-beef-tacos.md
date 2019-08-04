@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Pressure Cooker Korean Beef Tacos
-category:		main dish					
-subcategory:	beef
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		1 hour
-numServed:		4
-source:			cookiesandcups.com
-
-#=== Stuff for the ingredients list ===#
+title: Pressure Cooker Korean Beef Tacos
+category:	main dish					
+subcategory: beef
+review: 5
+cookTime: 1 hour
+numServed: 4
+source:	cookiesandcups.com
 ingredients:
   - 4 pounds bottom roast (cut in to cubes)
   - salt and pepper

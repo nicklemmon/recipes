@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title:      Skillet Chicken Bulgogi
-category:   main dish         
-subcategory:  poultry
-review:     0
-
-#=== Stuff for the Sidebar ===#
-cookTime:   20 minutes
-numServed:    4
-source:     http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Skillet Chicken Bulgogi
+category: main dish         
+subcategory: poultry
+review: 0
+cookTime: 20 minutes
+numServed: 4
+source: http://allrecipes.com
 ingredients:
   - 1/4 cup chopped onion
   - 5 tablespoons soy sauce

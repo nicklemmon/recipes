@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Turkey and Black Bean Chili
-category:		main dish					
-subcategory:	poultry
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		40
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Turkey and Black Bean Chili
+category:	main dish					
+subcategory: poultry
+review: 5
+cookTime:	40
+numServed: 6
+source:	http://allrecipes.com
 ingredients:
   - 1 tablespoon vegetable oil
   - 1 pound ground turkey

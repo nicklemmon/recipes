@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Aunt B's Mac and Cheese
-category:		side dish					
-subcategory:	starch
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		1.5 hours
-numServed:		8
-source:			Aunt B
-
-#=== Stuff for the ingredients list ===#
+title:	Aunt B's Mac and Cheese
+category:	side dish					
+subcategory: starch
+review:	5
+cookTime:	1.5 hours
+numServed:	8
+source:	Aunt B
 ingredients:
   - 1 pound of pasta
   - 1 can of Carnation evaporated milk

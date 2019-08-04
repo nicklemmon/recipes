@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Weight Watchers Parmesan Chicken Cutlets		# name of the dish
-category:		main dish				# category for the dish
-subcategory:	poultry				# subcategory for the dish
-review:			3						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
-
-#=== Stuff for the Sidebar ===#
-cookTime:		35					# cook time for the dish in minutes
-numServed:		4						# number of people served by the dish
-source:			http://geniuskitchen.com  	# where did you find the recipe?
-
-#=== Stuff for the ingredients list ===#
+title: 	Weight Watchers Parmesan Chicken Cutlets
+category:	main dish
+subcategory: poultry
+review:	3
+cookTime:	35
+numServed: 4
+source:	http://geniuskitchen.com
 ingredients:
   - 1⁄4 cup parmesan cheese (grated)
   - 2 tablespoons dried Italian seasoned breadcrumbs

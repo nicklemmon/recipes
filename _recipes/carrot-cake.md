@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			carrot cake
-category:		dessert
-subcategory:	cake
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		60
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: carrot cake
+category:	dessert
+subcategory: cake
+review:	0
+cookTime:	60
+numServed: 6
+source:	http://allrecipes.com
 ingredients:
   - 3 eggs
   - 3/4 cup buttermilk

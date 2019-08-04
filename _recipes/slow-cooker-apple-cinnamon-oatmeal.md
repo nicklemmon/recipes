@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			slow cooker apple cinnammon oatmeal
-category:		main dish					
-subcategory:	breakfast
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		20
-numServed:		8
-source:			http://theyummylife.com
-
-#=== Stuff for the ingredients list ===#
+title: slow cooker apple cinnammon oatmeal
+category:	main dish					
+subcategory: breakfast
+review: 5
+cookTime:	20
+numServed: 8
+source:	http://theyummylife.com
 ingredients:
   - 4 apples (peeled then cored and cut in to 1/2 inch pieces)
   - 3 cups fat-free milk

@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			orange glorious
-category:		drinks
-subcategory:	smoothie
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		5
-numServed:		1
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: orange glorious
+category:	drinks
+subcategory: smoothie
+review:	0
+cookTime:	5
+numServed: 1
+source:	http://allrecipes.com
 ingredients:
   - 1 cup ice water
   - 1 (6 ounce) can frozen orange juice concentrate

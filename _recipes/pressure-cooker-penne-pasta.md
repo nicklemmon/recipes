@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Pressure Cooker Penne Pasta
-category:		main dish					
-subcategory:	vegetarian
+title: Pressure Cooker Penne Pasta
+category:	main dish					
+subcategory: vegetarian
 review: 4
-
-#=== Stuff for the Sidebar ===#
-cookTime:		25 minutes
-numServed:		4
-source:			http://pressurecookingrecipes.com
-
-#=== Stuff for the ingredients list ===#
+cookTime:	25 minutes
+numServed: 4
+source:	http://pressurecookingrecipes.com
 ingredients:
   - 450 grams penne pasta
   - 1 small onion

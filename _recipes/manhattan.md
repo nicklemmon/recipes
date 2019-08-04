@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			manhattan
-category:		drinks
-subcategory:	alcoholic drink
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		5
-numServed:		1
-source:			http://esquire.com
-
-#=== Stuff for the ingredients list ===#
+title: manhattan
+category:	drinks
+subcategory: alcoholic drink
+review:	0
+cookTime:	5
+numServed: 1
+source:	http://esquire.com
 ingredients:
   - 2 ounces rye whiskey
   - 1 ounce italian vermouth

@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			southern moon pies
-category:		dessert
-subcategory:	chocolate
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		38
-numServed:		1
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: southern moon pies
+category:	dessert
+subcategory: chocolate
+review: 0
+cookTime:	38
+numServed:	1
+source:	http://allrecipes.com
 ingredients:
   - 1/2 cup butter (softened)
   - 1 cup white sugar

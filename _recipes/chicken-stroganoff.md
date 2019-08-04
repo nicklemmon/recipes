@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			chicken stroganoff
-category:		main dish					
-subcategory:	poultry
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		15
-numServed:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: chicken stroganoff
+category:	main dish					
+subcategory: poultry
+review:	5
+cookTime:	15
+numServed: 4
+source:	http://allrecipes.com
 ingredients:
   - 4 boneless chicken breast halves - cubed
   - 1/8 cup margarine

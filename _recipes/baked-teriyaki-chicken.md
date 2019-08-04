@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Baked Teriyaki Chicken
-category:		main dish					
-subcategory:	poultry
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		1.5 hours
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: 	Baked Teriyaki Chicken
+category:	main dish					
+subcategory: poultry
+review:	0
+cookTime:	1.5 hours
+numServed:	6
+source:	http://allrecipes.com
 ingredients:
   - 1 tablespoon cornstarch
   - 1 tablespoon cold water

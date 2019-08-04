@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			sweet, sticky, spicy, chicken
-category:		main dish					
-subcategory:	poultry
-review:			4
-
-#=== Stuff for the Sidebar ===#
-cookTime:		20
-numServed:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: sweet, sticky, spicy, chicken
+category:	main dish					
+subcategory: poultry
+review:	4
+cookTime:	20
+numServed: 4
+source:	http://allrecipes.com
 ingredients:
   - 1 tablespoon brown sugar
   - 2 tablespoons honey

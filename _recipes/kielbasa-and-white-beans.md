@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			kielbasa and white beans
-category:		main dish					
-subcategory:	pork
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		20
-numServed:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: kielbasa and white beans
+category:	main dish					
+subcategory: pork
+review:	5
+cookTime:	20
+numServed:	4
+source:	http://allrecipes.com
 ingredients:
   - 1 pound kielbasa or polish sauces cut into 1/2 inch pieces
   - 1 small onion (chopped)

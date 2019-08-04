@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Crock Pot Curry
-category:		main dish					
-subcategory:	vegetarian
-review:
-
-#=== Stuff for the Sidebar ===#
-cookTime:		25 minutes
-numServed:		4
-source:			http://pressurecookingrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Crock Pot Curry
+category:	main dish					
+subcategory: vegetarian
+review: 3
+cookTime:	25 minutes
+numServed: 4
+source:	http://pressurecookingrecipes.com
 ingredients:
   - 4 small potatoes
   - diced or 4 small potatoes

@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			florentine casserole
-category:		main dish					
-subcategory:	poultry
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		90
-numServed:	6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: florentine casserole
+category:	main dish					
+subcategory: poultry
+review: 5
+cookTime:	90
+numServed: 6
+source:	http://allrecipes.com
 ingredients:
   - 4 boneless chicken breast halves
   - 1/4 cup butter

@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Bob's Awesome Lasagna
-category:		main dish					
-subcategory:	beef
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		1.5 hours
-numServed:		8
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Bob's Awesome Lasagna
+category:	main dish					
+subcategory: beef
+review:	5
+cookTime:	1.5 hours
+numServed:	8
+source:	http://allrecipes.com
 ingredients:
   - 8 ounces lasagna noodles
   - 1 pound ground beef

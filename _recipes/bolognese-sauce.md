@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			bolognese sauce
-category:		main dish
-subcategory:	beef
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		5
-numServed:		1
-source:			http://cooking.nytimes.com
-
-#=== Stuff for the ingredients list ===#
+title: bolognese sauce
+category:	main dish
+subcategory: beef
+review:	5
+cookTime:	5
+numServed: 1
+source:	http://cooking.nytimes.com
 ingredients:
   - 1 tablespoon vegetable oil
   - 3 tablespoons butter plus 1 tablespoon for tossing the pasta

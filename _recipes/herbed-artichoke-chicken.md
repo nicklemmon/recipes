@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Herbed Artichoke Chicken
-category:		main dish					
-subcategory:	poultry
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		45 minutes
-numServed:		8
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Herbed Artichoke Chicken
+category:	main dish					
+subcategory: poultry
+review:	5
+cookTime:	45 minutes
+numServed:	8
+source:	http://allrecipes.com
 ingredients:
   - 1.5 pounds boneless and skinless chicken breasts
   - 14 oz can of tomatoes (drained and diced)

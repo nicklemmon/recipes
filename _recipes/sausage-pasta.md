@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Sausage Pasta
-category:		main dish					
-subcategory:	pork
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		45 minutes
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Sausage Pasta
+category: main dish					
+subcategory: pork
+review: 5
+cookTime:	45 minutes
+numServed: 6
+source:	http://allrecipes.com
 ingredients:
   - 3/4 pound pasta (we use penne)
   - 1 tablespoon olive oil

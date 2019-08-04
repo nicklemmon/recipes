@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			slow cooker honey sesame chicken
-category:		main dish					
-subcategory:	poultry
-review:			3
-
-#=== Stuff for the Sidebar ===#
-cookTime:		6 hours
-numServed:		8
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: slow cooker honey sesame chicken
+category:	main dish					
+subcategory: poultry
+review:	3
+cookTime:	6 hours
+numServed: 8
+source:	http://allrecipes.com
 ingredients:
   - 4 boneless chicken breasts
   - salt and pepper

@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			chocolate orange truffles
-category:		dessert
-subcategory:	chocolate
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		20
-numServed:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: chocolate orange truffles
+category:	dessert
+subcategory: chocolate
+review:	0
+cookTime:	20
+numServed:	4
+source:	http://allrecipes.com
 ingredients:
   - 1/4 cup unsalted butter
   - 3 tablespoons heavy cream

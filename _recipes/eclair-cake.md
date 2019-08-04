@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			eclair cake
-category:		dessert
-subcategory:	cake
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		265
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: eclair cake
+category:	dessert
+subcategory: cake
+review:	0
+cookTime:	265
+numServed: 6
+source:	http://allrecipes.com
 ingredients:
   - 2 (3.5 ounce) packages instant vanilla pudding mix
   - 1 (8 ounce) container frozen whipped topping

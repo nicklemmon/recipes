@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			pressure cooker brown rice
-category:		side dish
-subcategory:	starch
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		25
-numServed:		6
-source:			http://food.com
-
-#=== Stuff for the ingredients list ===#
+title: 	pressure cooker brown rice
+category:	side dish
+subcategory: starch
+review:	0
+cookTime:	25
+numServed:	6
+source:	http://food.com
 ingredients:
   - 4 cups water
   - 2 cups long brown rice

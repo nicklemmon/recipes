@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Black Bean and Lentil Chili
-category:		main dish					
-subcategory:	vegetarian
-review:			4
-
-#=== Stuff for the Sidebar ===#
-cookTime:		60 minutes
-numServed:		8
-source:			http://weightwatchers.com
-
-#=== Stuff for the ingredients list ===#
+title: Black Bean and Lentil Chili
+category:	main dish					
+subcategory: vegetarian
+review:	4
+cookTime:	60 minutes
+numServed: 8
+source:	http://weightwatchers.com
 ingredients:
   - 1.5 cups dry lentils
   - 1 tablespoon olive oil

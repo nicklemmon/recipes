@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Hoppin' John Soup
-category:		main dish		
-subcategory:	pork
-review:			0
-
-#=== Stuff for the Sidebar ===#
+title: Hoppin' John Soup
+category: main dish		
+subcategory: pork
+review: 
 cookTime:		50 Minutes
 numServed:		6
 source:			http://food.com
-
-#=== Stuff for the ingredients list ===#
 ingredients:
   - 1 pound sausage
   - 14 ounces tomatoes (drained)

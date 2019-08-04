@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			accidental fish			# name of the dish
-category:		main dish				# category for the dish
-subcategory:	seafood					# subcategory for the dish
-review:			5						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
-
-#=== Stuff for the Sidebar ===#
-cookTime:		30						# cook time for the dish in minutes
-numServed:		2						# number of people served by the dish
-source:			http://allrecipes.com  	# where did you find the recipe?
-
-#=== Stuff for the ingredients list ===#
+title: accidental fish
+category:	main dish
+subcategory: seafood
+review:	5
+cookTime:	30
+numServed: 2
+source:	http://allrecipes.com
 ingredients:
   - 2 (4 ounce) fillets mahi mahi
   - 2 teaspoons olive oil

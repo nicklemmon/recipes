@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			chicken enchiladas
-category:		main dish					
-subcategory:	poultry						
-review:			4				
-
-#=== Stuff for the Sidebar ===#
-cookTime:		45							
-numServed:		1							
-source:			http://allrecipes.com  		
-
-#=== Stuff for the ingredients list ===#
+title: chicken enchiladas
+category:	main dish					
+subcategory: poultry						
+review:	4				
+cookTime:	45	
+numServed: 1							
+source:	http://allrecipes.com  		
 ingredients:
   - 1 tablespoon butter
   - 1/2 cup chopped green onions

@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			San Francisco Pork Chops
-category:		main dish					
-subcategory:	pork
-review:			4
-
-#=== Stuff for the Sidebar ===#
-cookTime:		45 minutes
-numServed:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: San Francisco Pork Chops
+category:	main dish					
+subcategory: pork
+review:	4
+cookTime:	45 minutes
+numServed: 4
+source:	http://allrecipes.com
 ingredients:
   - 1 tablespoon vegetable oil
   - 4 (2/4 inch-thick) boneless pork chops

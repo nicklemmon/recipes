@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title:      Spaghetti Sauce     # name of the dish
-category:   main dish       # category for the dish
-subcategory:  beef         # subcategory for the dish
-review:     0           # review the recipe from a scale of 1 (bad!) to 5 (amazing!)
-
-#=== Stuff for the Sidebar ===#
-cookTime:   1 hour            # cook time for the dish in minutes
-numServed:    4           # number of people served by the dish
-source:     http://food.com   # where did you find the recipe?
-
-#=== Stuff for the ingredients list ===#
+title: Spaghetti Sauce
+category: main dish
+subcategory: beef
+review: 0
+cookTime: 1 hour
+numServed: 4
+source: http://food.com
 ingredients:
   - 1.5 pounds ground beef
   - 1 medium onion

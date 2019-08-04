@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title:      good old fashioned pancakes
-category:   main dish
-subcategory:  breakfast
-review:     4
-
-#=== Stuff for the Sidebar ===#
-cookTime:   15
-numServed:    6
-source:     http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: good old fashioned pancakes
+category: main dish
+subcategory: breakfast
+review: 4
+cookTime: 15
+numServed: 6
+source: http://allrecipes.com
 ingredients:
   - 1 1/2 cups all-purpose flour
   - 3 1/2 teaspoons baking powder

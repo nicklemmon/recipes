@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			flavored latte
-category:		drinks
-subcategory:	hot drink
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		5
-numServed:		1
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: flavored latte
+category:	drinks
+subcategory: hot drink
+review:	0
+cookTime:	5
+numServed: 1
+source:	http://allrecipes.com
 ingredients:
   - 1 1/4 cups 2% milk
   - 2 tablespoons flavored syrup (your choice!)

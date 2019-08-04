@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			old fashioned
-category:		drinks
-subcategory:	alcoholic drink
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		5
-numServed:		1
-source:			http://esquire.com
-
-#=== Stuff for the ingredients list ===#
+title: old fashioned
+category:	drinks
+subcategory: alcoholic drink
+review:	0
+cookTime:	5
+numServed:	1
+source: http://esquire.com
 ingredients:
   - 1 sugar cube
   - 3 dashes Angostura Bitters

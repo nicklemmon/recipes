@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Laura's Quick Slow Cooker Turkey Chili
-category:		main dish					
-subcategory:	poultry
-review:			3
-
-#=== Stuff for the Sidebar ===#
-cookTime:		4 hours
-numServed:		8
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: Laura's Quick Slow Cooker Turkey Chili
+category:	main dish					
+subcategory: poultry
+review:	3
+cookTime:	4 hours
+numServed: 8
+source:	http://allrecipes.com
 ingredients:
   - 1 tablespoon vegetable oil
   - 1 pound ground turkey

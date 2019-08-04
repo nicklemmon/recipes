@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			slow cooker carolina barbecue
-category:		main dish					
-subcategory:	pork
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		15
-numServed:		4
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title:  slow cooker carolina barbecue
+category:	main dish					
+subcategory: pork
+review:	5
+cookTime: 15
+numServed: 4
+source:	http://allrecipes.com
 ingredients:
   - 1 (5 pound) bone-in pork shoulder roast
   - 1 tablespoon salt

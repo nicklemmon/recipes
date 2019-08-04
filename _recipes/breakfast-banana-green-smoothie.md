@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			breakfast banana green smoothie
-category:		drinks
+title: breakfast banana green smoothie
+category:	drinks
 subcategory:	smoothie
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cookTime:		5
-numServed:		1
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+review:	0
+cookTime:	5
+numServed: 1
+source:	http://allrecipes.com
 ingredients:
   - 2 cups baby spinach leaves
   - 1 banana

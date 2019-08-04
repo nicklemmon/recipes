@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Crock Pot Chili Pork Chops		# name of the dish
-category:		main dish				# category for the dish
-subcategory:	pork				# subcategory for the dish
-review:			3						# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
-
-#=== Stuff for the Sidebar ===#
-cookTime:		30						# cook time for the dish in minutes
-numServed:		3						# number of people served by the dish
-source:			http://geniuskitchen.com  	# where did you find the recipe?
-
-#=== Stuff for the ingredients list ===#
+title: Crock Pot Chili Pork Chops
+category:	main dish
+subcategory: pork
+review:	3
+cookTime:	30
+numServed:	3
+source:	http://geniuskitchen.com
 ingredients:
   - 1⁄2 cup chopped onion
   - 2 tablespoons olive oil

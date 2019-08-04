@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			chickpea soup
-category:		main dish					
-subcategory:	vegetarian
-review:			4
-
-#=== Stuff for the Sidebar ===#
-cookTime:		15
-numServed:		4
-source:			Mom
-
-#=== Stuff for the ingredients list ===#
+title: chickpea soup
+category:	main dish					
+subcategory: vegetarian
+review:	4
+cookTime:	15
+numServed: 4
+source:	Mom
 ingredients:
   - 1.5 teaspoons dried marjoram
   - 1 clove minced garlic

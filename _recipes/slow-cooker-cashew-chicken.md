@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Slow Cooker Cashew Chicken
-category:		main dish					
-subcategory:	poultry
+title: Slow Cooker Cashew Chicken
+category:	main dish					
+subcategory: poultry
 review: 4
-
-#=== Stuff for the Sidebar ===#
-cookTime:		3 - 4 hours
-numServed:		6
-source:			http://therecipecritic.com
-
-#=== Stuff for the ingredients list ===#
+cookTime:	3 - 4 hours
+numServed: 6
+source:	http://therecipecritic.com
 ingredients:
   - 2 lbs boneless skinless chicken breasts (About 4 pieces)
   - 3 Tablespoons Cornstach

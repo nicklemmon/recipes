@@ -1,18 +1,12 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			pantry raid chicken enchiladas
-category:		main dish					
-subcategory:	poultry
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cookTime:		40
-numServed:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
+title: pantry raid chicken enchiladas
+category:	main dish					
+subcategory: poultry
+review:	5
+cookTime:	40
+numServed:	6
+source:	http://allrecipes.com
 ingredients:
   - 15 oz can tomato sauce
   - 1/4 cup water
