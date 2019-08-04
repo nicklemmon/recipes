@@ -1,19 +1,21 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Baked Ziti
-category:		main dish					
-subcategory:	vegetarian
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		45 minutes
-numserved:		8
-source:			allrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 pound of ziti, 1 onion (chopped), 1 pound lean ground beef, 2 X 26 OZ Jars of Spaghetti Sauce, 6 ounces provolone cheese (sliced), 1.5 cups sour cream, 6 ounces mozzarella (shredded), 2 tablespoons grated parmesan cheese
+title: Baked Ziti
+category:	main dish					
+subcategory: vegetarian
+review:	5
+cookTime:	45 minutes
+numServed: 8
+source:	allrecipes.com
+ingredients:
+  - 1 pound of ziti
+  - 1 onion (chopped)
+  - 1 pound lean ground beef
+  - 2 X 26 OZ Jars of Spaghetti Sauce
+  - 6 ounces provolone cheese (sliced)
+  - 1.5 cups sour cream
+  - 6 ounces mozzarella (shredded)
+  - 2 tablespoons grated parmesan cheese
 ---
 
 1. Bring a large pot of lightly salted water to a boil. Add ziti pasta, and cook until al dente, about 8 minutes; drain.

@@ -1,19 +1,21 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Aunt B's Mac and Cheese
-category:		side dish					
-subcategory:	starch
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		1.5 hours
-numserved:		8
-source:			Aunt B
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 pound of pasta, 1 can of Carnation evaporated milk, 4-5 eggs, 16 oz cheddar cheese, 16 oz colby jack, 16 oz mozzarella, 8 oz parmesan, pepper
+title:	Aunt B's Mac and Cheese
+category:	side dish					
+subcategory: starch
+review:	5
+cookTime:	1.5 hours
+numServed:	8
+source:	Aunt B
+ingredients:
+  - 1 pound of pasta
+  - 1 can of Carnation evaporated milk
+  - 4-5 eggs
+  - 16 oz cheddar cheese
+  - 16 oz colby jack
+  - 16 oz mozzarella
+  - 8 oz parmesan
+  - pepper
 ---
 
 1. Cook the pasta in salted water until al dente, drain and rinse under cold water

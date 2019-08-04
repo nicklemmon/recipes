@@ -1,19 +1,22 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Baked Teriyaki Chicken
-category:		main dish					
-subcategory:	poultry
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cooktime:		1.5 hours
-numserved:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 tablespoon cornstarch, 1 tablespoon cold water, 1/2 cup white sugar, 1/2 cup soy sauce, 1/4 cup cider vinegar, 1 clove garlic, 1/2 teaspoon ginger, 1/4 teaspoon ground black pepper, 12 skinless chicken thighs
+title: 	Baked Teriyaki Chicken
+category:	main dish					
+subcategory: poultry
+review:	0
+cookTime:	1.5 hours
+numServed:	6
+source:	http://allrecipes.com
+ingredients:
+  - 1 tablespoon cornstarch
+  - 1 tablespoon cold water
+  - 1/2 cup white sugar
+  - 1/2 cup soy sauce
+  - 1/4 cup cider vinegar
+  - 1 clove garlic
+  - 1/2 teaspoon ginger
+  - 1/4 teaspoon ground black pepper
+  - 12 skinless chicken thighs
 ---
 
 1. In a small saucepan over low heat, combine the cornstarch, cold water, sugar, soy sauce, vinegar, garlic, ginger and ground black pepper. Let simmer, stirring frequently, until sauce thickens and bubbles.

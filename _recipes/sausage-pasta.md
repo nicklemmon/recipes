@@ -1,19 +1,23 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Sausage Pasta
-category:		main dish					
-subcategory:	pork
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		45 minutes
-numserved:		6
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	3/4 pound pasta (we use penne), 1 tablespoon olive oil, 1 pound spicy Italian sausage, 1 onion (chopped), 4 cloves garlic (minced), 1 (14.5 oz) can chicken broth, 1 teaspoon dried basil, 1 (14.5 oz) can diced tomatoes, 1 (10 oz) package frozen chopped spinach, 1/2 cup grated parmesan cheese
+title: Sausage Pasta
+category: main dish					
+subcategory: pork
+review: 5
+cookTime:	45 minutes
+numServed: 6
+source:	http://allrecipes.com
+ingredients:
+  - 3/4 pound pasta (we use penne)
+  - 1 tablespoon olive oil
+  - 1 pound spicy Italian sausage
+  - 1 onion (chopped)
+  - 4 cloves garlic (minced)
+  - 1 (14.5 oz) can chicken broth
+  - 1 teaspoon dried basil
+  - 1 (14.5 oz) can diced tomatoes
+  - 1 (10 oz) package frozen chopped spinach
+  - 1/2 cup grated parmesan cheese
 ---
 
 1. Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain and reserve

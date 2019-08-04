@@ -1,19 +1,18 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			old fashioned
-category:		drinks
-subcategory:	alcoholic drink
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cooktime:		5
-numserved:		1
-source:			http://esquire.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 sugar cube, 3 dashes Angostura Bitters, 1 liter club soda, 2 ounces rye whiskey, 1 old-fashioned glass
+title: old fashioned
+category:	drinks
+subcategory: alcoholic drink
+review:	0
+cookTime:	5
+numServed:	1
+source: http://esquire.com
+ingredients:
+  - 1 sugar cube
+  - 3 dashes Angostura Bitters
+  - 1 liter club soda
+  - 2 ounces rye whiskey
+  - 1 old-fashioned glass
 ---
 
 1. Place the sugar cube (or 1/2 teaspoon loose sugar) in an Old-Fashioned glass

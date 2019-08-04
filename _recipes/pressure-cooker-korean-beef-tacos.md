@@ -1,19 +1,22 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Pressure Cooker Korean Beef Tacos
-category:		main dish					
-subcategory:	beef
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		1 hour
-numserved:		4
-source:			cookiesandcups.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	4 pounds bottom roast (cut in to cubes), salt and pepper, 2 tablespoons olive oil, 1 cup beef broth, 1/2 cup soy sauce, 5 cloves garlic (minced), 1 tablespoon fresh grated ginger, 1 pear or Granny Smith apple, juice of one large orange
+title: Pressure Cooker Korean Beef Tacos
+category:	main dish					
+subcategory: beef
+review: 5
+cookTime: 1 hour
+numServed: 4
+source:	cookiesandcups.com
+ingredients:
+  - 4 pounds bottom roast (cut in to cubes)
+  - salt and pepper
+  - 2 tablespoons olive oil
+  - 1 cup beef broth
+  - 1/2 cup soy sauce
+  - 5 cloves garlic (minced)
+  - 1 tablespoon fresh grated ginger
+  - 1 pear or Granny Smith apple
+  - juice of one large orange
 ---
 
 1. Season the cubed roast liberally with salt and pepper.

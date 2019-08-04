@@ -1,19 +1,27 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			bolognese sauce
-category:		main dish
-subcategory:	beef
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		5
-numserved:		1
-source:			http://cooking.nytimes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:    1 tablespoon vegetable oil, 3 tablespoons butter plus 1 tablespoon for tossing the pasta, ½ cup chopped onion, ⅔ cup chopped celery, ⅔ cup chopped carrot, ¾ pound ground beef chuck (or you can use 1 part pork to 2 parts beef), Salt, Black pepper, 1 cup whole milk, Whole nutmeg, 1 cup dry white wine, 1 ½ cups canned imported Italian plum tomatoes (cut up with their juice), 1 ¼ to 1 ½ pounds pasta, Freshly grated parmigiano-reggiano cheese at the table
+title: bolognese sauce
+category:	main dish
+subcategory: beef
+review:	5
+cookTime:	5
+numServed: 1
+source:	http://cooking.nytimes.com
+ingredients:
+  - 1 tablespoon vegetable oil
+  - 3 tablespoons butter plus 1 tablespoon for tossing the pasta
+  - ½ cup chopped onion
+  - ⅔ cup chopped celery
+  - ⅔ cup chopped carrot
+  - ¾ pound ground beef chuck (or you can use 1 part pork to 2 parts beef)
+  - Salt
+  - Black pepper
+  - 1 cup whole milk
+  - Whole nutmeg
+  - 1 cup dry white wine
+  - 1 ½ cups canned imported Italian plum tomatoes (cut up with their juice)
+  - 1 ¼ to 1 ½ pounds pasta
+  - Freshly grated parmigiano-reggiano cheese at the table
 ---
 
 1. Put the oil, butter and chopped onion in the pot and turn the heat on to medium. Cook and stir the onion until it has become translucent, then add the chopped celery and carrot. Cook for about 2 minutes, stirring vegetables to coat them well.

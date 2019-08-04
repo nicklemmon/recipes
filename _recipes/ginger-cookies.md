@@ -1,19 +1,22 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Ginger Cookies
-category:		dessert					
-subcategory:	cookie
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		30
-numserved:		8
-source:			Rachel Rose
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 cup (2 sticks) of butter, 2 cups sugar, 2 eggs, 1/2 cup of molasses, 2 tsp cinnamon, 4 tsp baking powder, 3 tsp salt, 1 Tbs ground ginger, 4 cups flour
+title: Ginger Cookies
+category:	dessert					
+subcategory: cookie
+review:	5
+cooktime: 30
+numserved: 8
+source:	Rachel Rose
+ingredients:
+  - 1 cup (2 sticks) of butter
+  - 2 cups sugar
+  - 2 eggs
+  - 1/2 cup of molasses
+  - 2 tsp cinnamon
+  - 4 tsp baking powder
+  - 3 tsp salt
+  - 1 Tbs ground ginger
+  - 4 cups flour
 ---
 
 1. Mix all ingredients together with a mixer.

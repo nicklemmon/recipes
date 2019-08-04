@@ -1,19 +1,19 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Slow Cooker Jamaican Jerk BBQ Chicken			# name of the dish
-category:		main dish				# category for the dish
-subcategory:	poultry					# subcategory for the dish
-review:			4					# review the recipe from a scale of 1 (bad!) to 5 (amazing!)
-
-#=== Stuff for the Sidebar ===#
-cooktime:		20						# cook time for the dish in minutes
-numserved:		4						# number of people served by the dish
-source:			http://geniuskitchen.com  	# where did you find the recipe?
-
-#=== Stuff for the ingredients list ===#
-ingredients:	8 chicken drumsticks (about 2 pounds, skin removed), 2 teaspoons caribbean jerk seasoning, 3⁄4 cup barbecue sauce, 1 tablespoon dark rum (optional), 1⁄4 cup scallion, sliced
+title: Slow Cooker Jamaican Jerk BBQ Chicken
+category:	main dish
+subcategory: poultry
+review:	4
+cookTime:	20
+numServed: 4
+source:	http://geniuskitchen.com
+ingredients:
+  - 8 chicken drumsticks (about 2 pounds - skin removed)
+  - 2 teaspoons caribbean jerk seasoning
+  - 3⁄4 cup barbecue sauce
+  - 1 tablespoon dark rum (optional)
+  - 1⁄4 cup scallion
+  - sliced
 ---
 
 1. Rub drumsticks with seasoning.

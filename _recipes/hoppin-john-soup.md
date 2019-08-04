@@ -1,19 +1,23 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Hoppin' John Soup
-category:		main dish		
-subcategory:	pork
-review:			3
-
-#=== Stuff for the Sidebar ===#
-cooktime:		50 Minutes
-numserved:		6
-source:			http://food.com
-
-#=== Stuff for the ingredients list ===#
-ingredients: 1 pound sausage, 14 ounces tomatoes (drained), 12 ounce can of tomato sauce, 1 medium onion (chopped), 1/2 cup celery (chopped), 1/2 cpu white rice (uncooked), 1/2 teaspoon salt, 1/4 teaspoon black pepper, 4 cups water, 13 ounce can black-eyed peas (drained)
+title: Hoppin' John Soup
+category: main dish		
+subcategory: pork
+review: 
+cookTime:	50 Minutes
+numServed:	6
+source:	http://food.com
+ingredients:
+  - 1 pound sausage
+  - 14 ounces tomatoes (drained)
+  - 12 ounce can of tomato sauce
+  - 1 medium onion (chopped)
+  - 1/2 cup celery (chopped)
+  - 1/2 cpu white rice (uncooked)
+  - 1/2 teaspoon salt
+  - 1/4 teaspoon black pepper
+  - 4 cups water
+  - 13 ounce can black-eyed peas (drained)
 ---
 
 1. Cook sausage, drain and crumble.

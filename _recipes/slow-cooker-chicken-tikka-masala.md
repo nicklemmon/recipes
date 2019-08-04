@@ -1,19 +1,28 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Slow Cooker Chicken Tikka Masala
-category:		main dish					
-subcategory:	poultry						
-review:			0				
-
-#=== Stuff for the Sidebar ===#
-cooktime:		20							
-numserved:		6							
-source:			http://thekitchn.com  		
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1 to 1 1/2 pounds boneless, skinless chicken thighs, 1 large onion (diced), 3 cloves garlic (minced), 1-inch piece whole ginger (peeled and grated), 2 tablespoons tomato paste, 1 to 2 tablespoons garam masala, 2 teaspoons paprika, 2 teaspoons kosher salt, 1 (28-ounce) can diced tomatoes, 3/4 cup heavy cream or coconut milk, Fresh cilantro, chopped, 2 cups cooked rice, to serve
+title: Slow Cooker Chicken Tikka Masala
+category:	main dish					
+subcategory: poultry						
+review:	0				
+cookTime:	20							
+numServed: 6							
+source:	http://thekitchn.com
+ingredients:
+  - 1 to 1 1/2 pounds boneless
+  - skinless chicken thighs
+  - 1 large onion (diced)
+  - 3 cloves garlic (minced)
+  - 1-inch piece whole ginger (peeled and grated)
+  - 2 tablespoons tomato paste
+  - 1 to 2 tablespoons garam masala
+  - 2 teaspoons paprika
+  - 2 teaspoons kosher salt
+  - 1 (28-ounce) can diced tomatoes
+  - 3/4 cup heavy cream or coconut milk
+  - Fresh cilantro
+  - chopped
+  - 2 cups cooked rice
+  - to serve
 ---
 
 1. Cut the chicken thighs into bite-sized pieces and transfer them to a 3-quart or larger slow cooker. Stir in the onion, garlic, ginger, tomato paste, 1 tablespoon of garam masala, paprika, and kosher salt until the chicken is evenly covered with spices. Stir in the diced tomatoes with their juices.

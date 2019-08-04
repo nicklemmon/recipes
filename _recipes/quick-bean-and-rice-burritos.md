@@ -1,19 +1,26 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Quick Bean and Rice Burritos
-category:		main dish					
-subcategory:	vegetarian
+title: Quick Bean and Rice Burritos
+category:	main dish					
+subcategory: vegetarian
 review:	3
-
-#=== Stuff for the Sidebar ===#
-cooktime:		.25 hours
-numserved:		6
-source:			http://tasteofhome.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1-1/2 cups water, 1-1/2 cups uncooked instant brown rice, 1 medium green pepper, diced, 1/2 cup chopped onion, 1 tablespoon olive oil, 1 teaspoon minced garlic, 1 tablespoon chili powder, 1 teaspoon ground cumin, 1/8 teaspoon crushed red pepper flakes, 1 can (15 ounces) black beans (rinsed and drained), 8 flour tortillas (8 inches) warmed, 1 cup salsa
+cookTime:	.25 hours
+numServed: 6
+source:	http://tasteofhome.com
+ingredients:
+  - 1-1/2 cups water
+  - 1-1/2 cups uncooked instant brown rice
+  - 1 medium green pepper
+  - diced
+  - 1/2 cup chopped onion
+  - 1 tablespoon olive oil
+  - 1 teaspoon minced garlic
+  - 1 tablespoon chili powder
+  - 1 teaspoon ground cumin
+  - 1/8 teaspoon crushed red pepper flakes
+  - 1 can (15 ounces) black beans (rinsed and drained)
+  - 8 flour tortillas (8 inches) warmed
+  - 1 cup salsa
 ---
 
 1. In a small saucepan, bring water to a boil. Add rice. Return to a boil. Reduce heat; cover and simmer for 5 minutes. Remove from the heat. Let stand for 5 minutes or until water is absorbed.

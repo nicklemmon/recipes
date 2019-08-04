@@ -1,19 +1,23 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Crock Pot Curry
-category:		main dish					
-subcategory:	vegetarian
+title: Crock Pot Curry
+category:	main dish					
+subcategory: vegetarian
 review: 3
-
-#=== Stuff for the Sidebar ===#
-cooktime:		25 minutes
-numserved:		4
-source:			http://pressurecookingrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients: 4 small potatoes, diced or 4 small potatoes, chunked, 2 (14 ounce) cans Rotel tomatoes & chiles, 2 (15 1/2 ounce) cans kidney beans or 2 (15 1/2 ounce) cans chickpeas, 2 white onions, chopped, 2 tablespoons olive oil, 1 tablespoon good quality curry powder, 1 teaspoon cayenne (optional), 1⁄2 teaspoon cardamom (optional), 1⁄2 teaspoon ginger (optional)
+cookTime:	25 minutes
+numServed:	4
+source:	http://pressurecookingrecipes.com
+ingredients:
+  - 4 small potatoes (diced)
+  - 2 (14 ounce) cans Rotel tomatoes & chiles
+  - 2 (15 1/2 ounce) cans kidney beans or 2 (15 1/2 ounce) cans chickpeas
+  - 2 white onions
+  - chopped
+  - 2 tablespoons olive oil
+  - 1 tablespoon good quality curry powder
+  - 1 teaspoon cayenne (optional)
+  - 1⁄2 teaspoon cardamom (optional)
+  - 1⁄2 teaspoon ginger (optional)
 ---
 
 1. Heat olive oil in a saucepan or skillet. Add spices, saute for 1 minute or so.

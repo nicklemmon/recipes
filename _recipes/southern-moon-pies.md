@@ -1,19 +1,27 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			southern moon pies
-category:		dessert
-subcategory:	chocolate
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cooktime:		38
-numserved:		1
-source:			http://allrecipes.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	1/2 cup butter (softened), 1 cup white sugar, 1 egg, 1 cup evaporated milk, 1 teaspoon vanilla extract, 2 cups all-purpose flour, 1/2 teaspoon salt, 1/2 cup unsweetened cocoa powder, 1 1/2 teaspoons baking soda, 1/2 teaspoon baking powder, 1/2 cup butter (softened), 1 cup confectioners' sugar, 1/2 teaspoon vanilla extract, 1 cup marshmallow creme
+title: southern moon pies
+category:	dessert
+subcategory: chocolate
+review: 0
+cookTime:	38
+numServed:	1
+source:	http://allrecipes.com
+ingredients:
+  - 1/2 cup butter (softened)
+  - 1 cup white sugar
+  - 1 egg
+  - 1 cup evaporated milk
+  - 1 teaspoon vanilla extract
+  - 2 cups all-purpose flour
+  - 1/2 teaspoon salt
+  - 1/2 cup unsweetened cocoa powder
+  - 1 1/2 teaspoons baking soda
+  - 1/2 teaspoon baking powder
+  - 1/2 cup butter (softened)
+  - 1 cup confectioners' sugar
+  - 1/2 teaspoon vanilla extract
+  - 1 cup marshmallow creme
 ---
 
 1. Preheat oven to 400 degrees F (200 degrees C). Lightly grease a cookie sheet.

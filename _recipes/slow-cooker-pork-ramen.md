@@ -1,19 +1,27 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			Slow Cooker Pork Ramen
-category:		main dish					
-subcategory:	pork
-review:			5
-
-#=== Stuff for the Sidebar ===#
-cooktime:		45 minutes
-numserved:		6
-source:			chowhound.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	3 pounds boneless pork shoulder (cut into 3 equal pieces), Kosher salt, 2 tablespoons canola oil (if including the optional browning step), 1 yellow onion (coarsely chopped),  6 garlic cloves (chopped), 1 (2-inch) piece fresh ginger (peeled and chopped), 8 cups low-sodium chicken broth, 1 leek (halved lengthwise and coarsely chopped - white and green parts), 1/4 pound cremini or button mushrooms (brushed clean and coarsely chopped), Low-sodium soy sauce (for seasoning), Sesame and/or chile oil (for seasoning), 1 1/2 pounds fresh ramen noodles, 8 large eggs (optional), About 4 green onion (finely chopped - white and pale green parts)
+title: Slow Cooker Pork Ramen
+category:	main dish					
+subcategory: pork
+review:	5
+cookTime:	45 minutes
+numServed: 6
+source:	https://chowhound.com
+ingredients:
+  - 3 pounds boneless pork shoulder (cut into 3 equal pieces)
+  - Kosher salt
+  - 2 tablespoons canola oil (if including the optional browning step)
+  - 1 yellow onion (coarsely chopped)
+  -  6 garlic cloves (chopped)
+  - 1 (2-inch) piece fresh ginger (peeled and chopped)
+  - 8 cups low-sodium chicken broth
+  - 1 leek (halved lengthwise and coarsely chopped - white and green parts)
+  - 1/4 pound cremini or button mushrooms (brushed clean and coarsely chopped)
+  - Low-sodium soy sauce (for seasoning)
+  - Sesame and/or chile oil (for seasoning)
+  - 1 1/2 pounds fresh ramen noodles
+  - 8 large eggs (optional)
+  - About 4 green onion (finely chopped - white and pale green parts)
 ---
 
 1. Combine the pork, yellow onion, garlic, ginger, leek, mushrooms, and broth in the slow cooker. Cover and cook on the low-heat setting for 8 hours. The pork should be very tender and the broth should be fragrant.

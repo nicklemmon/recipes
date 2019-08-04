@@ -1,19 +1,19 @@
 ---
 layout: recipe
-
-#=== Meta Info ===#
-title: 			pressure cooker brown rice
-category:		side dish
-subcategory:	starch
-review:			0
-
-#=== Stuff for the Sidebar ===#
-cooktime:		25
-numserved:		6
-source:			http://food.com
-
-#=== Stuff for the ingredients list ===#
-ingredients:	4 cups water, 2 cups long brown rice, 4 chicken boullion cubes, 3 dashes Mrs Dash, 3 tablespoons butter, pepper
+title: 	pressure cooker brown rice
+category:	side dish
+subcategory: starch
+review:	0
+cookTime:	25
+numServed:	6
+source:	http://food.com
+ingredients:
+  - 4 cups water
+  - 2 cups long brown rice
+  - 4 chicken boullion cubes
+  - 3 dashes Mrs Dash
+  - 3 tablespoons butter
+  - pepper
 ---
 
 1. Spray pressure cooker with cooking oil.
