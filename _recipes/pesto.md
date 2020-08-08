@@ -1,9 +1,9 @@
 ---
 layout: recipe
-title: pesto
+title: Pesto
 category:	main dish					
 subcategory: vegetarian
-review:	4.5
+review:	4
 cookTime:	5
 numServed:	6
 source:	https://nytimes.com
