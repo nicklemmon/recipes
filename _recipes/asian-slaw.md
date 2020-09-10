@@ -29,7 +29,9 @@ ingredients:
   - Peanuts, for garnish
 ---
 
-1. In a small saucepan add 2 tablespoons olive oil, ginger and garlic, lightly saute until lightly brown. Add brown sugar, soy sauce, and mirin. Saute for 5 minutes and remove from heat. When cool whisk in olive oil, sesame oil and rice wine vinegar.
-2. Mix all vegetables in a bowl and toss with dressing.
-3. Garnish with crushed wontons and peanuts.
+1. In a small saucepan add 2 tablespoons olive oil, ginger and garlic, lightly saute until lightly brown.
+2. Add brown sugar, soy sauce, and mirin. Saute for 5 minutes and remove from heat.
+3. When cool whisk in olive oil, sesame oil and rice wine vinegar.
+4. Mix all vegetables in a bowl and toss with dressing.
+5. Garnish with crushed wontons and peanuts.
 
