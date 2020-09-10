@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Asian Slaw Tofu
+title: Asian Slaw
 category:	side dish					
 subcategory: vegetables
 review:	5
