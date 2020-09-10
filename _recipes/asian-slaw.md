@@ -2,7 +2,7 @@
 layout: recipe
 title: Asian Slaw Tofu
 category:	side dish					
-subcategory: vegetarian
+subcategory: vegetables
 review:	5
 cookTime:	30
 numServed: 4
